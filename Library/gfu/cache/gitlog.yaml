@@ -1,0 +1,875 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1dd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2018-11-16T16:09:19.728+01:00
+  initializedAtString: 2018-11-16T16:09:19.728+01:00
+  log:
+  - commitID: 9b91324b16cb6cf47032fd2bbbad0fa7f036e2e5
+    mergeA: 
+    mergeB: 
+    authorName: Olivia Kaufmann
+    authorEmail: olivia.kaufmann@stud.hslu.ch
+    commitEmail: olivia.kaufmann@stud.hslu.ch
+    commitName: Olivia Kaufmann
+    summary: plattform
+    description: plattform
+    timeString: 2018-11-14T16:38:16.000+01:00
+    commitTimeString: 2018-11-14T16:38:16.000+01:00
+    changes:
+    - path: Assets\.gitignore
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\.gitignore
+      projectPath: Assets\.gitignore
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.pdb
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Api.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.pdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ProBuilder Data\ProBuilderPreferences.asset
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\ProBuilder
+        Data\ProBuilderPreferences.asset
+      projectPath: Assets\ProBuilder Data\ProBuilderPreferences.asset
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Scenes.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Scenes.meta
+      projectPath: Assets\Scenes.meta
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\SampleScene.unity.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Scenes\SampleScene.unity.meta
+      projectPath: Assets\Scenes\SampleScene.unity.meta
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\plattformscene.unity
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Scenes\plattformscene.unity
+      projectPath: Assets\Scenes\plattformscene.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\plattformscene.unity.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Scenes\plattformscene.unity.meta
+      projectPath: Assets\Scenes\plattformscene.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: "Data.meta\tAssets\\plattform.meta"
+      fullPath: "C:\\Users\\Olivia Kaufmann\\Documents\\HSLU\\5.SemesterHS18\\GAMEDEV\\UnityProjects\\KobraKool\\Data.meta\tAssets\\plattform.meta"
+      projectPath: "Data.meta\tAssets\\plattform.meta"
+      originalPath: Assets\ProBuilder
+      status: 6
+      staged: 0
+    - path: Assets\plattform\MAterials.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\plattform\MAterials.meta
+      projectPath: Assets\plattform\MAterials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\plattform\MAterials\Bouncy.physicMaterial
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\plattform\MAterials\Bouncy.physicMaterial
+      projectPath: Assets\plattform\MAterials\Bouncy.physicMaterial
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: "Data\\ProBuilderPreferences.asset.meta\tAssets\\plattform\\MAterials\\Bouncy.physicMaterial.meta"
+      fullPath: "C:\\Users\\Olivia Kaufmann\\Documents\\HSLU\\5.SemesterHS18\\GAMEDEV\\UnityProjects\\KobraKool\\Data\\ProBuilderPreferences.asset.meta\tAssets\\plattform\\MAterials\\Bouncy.physicMaterial.meta"
+      projectPath: "Data\\ProBuilderPreferences.asset.meta\tAssets\\plattform\\MAterials\\Bouncy.physicMaterial.meta"
+      originalPath: Assets\ProBuilder
+      status: 6
+      staged: 0
+    - path: Assets\plattform\MAterials\BouncyMaterial.mat
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\plattform\MAterials\BouncyMaterial.mat
+      projectPath: Assets\plattform\MAterials\BouncyMaterial.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\plattform\MAterials\BouncyMaterial.mat.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\plattform\MAterials\BouncyMaterial.mat.meta
+      projectPath: Assets\plattform\MAterials\BouncyMaterial.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\plattform\MAterials\sandMaterial.mat
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\plattform\MAterials\sandMaterial.mat
+      projectPath: Assets\plattform\MAterials\sandMaterial.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\plattform\MAterials\sandMaterial.mat.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\plattform\MAterials\sandMaterial.mat.meta
+      projectPath: Assets\plattform\MAterials\sandMaterial.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\plattform\MAterials\slow.physicMaterial
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\plattform\MAterials\slow.physicMaterial
+      projectPath: Assets\plattform\MAterials\slow.physicMaterial
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\plattform\MAterials\slow.physicMaterial.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\plattform\MAterials\slow.physicMaterial.meta
+      projectPath: Assets\plattform\MAterials\slow.physicMaterial.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\plattform\MAterials\slowMAterial.mat
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\plattform\MAterials\slowMAterial.mat
+      projectPath: Assets\plattform\MAterials\slowMAterial.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\plattform\MAterials\slowMAterial.mat.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\plattform\MAterials\slowMAterial.mat.meta
+      projectPath: Assets\plattform\MAterials\slowMAterial.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\plattform\SAnd3.prefab
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\plattform\SAnd3.prefab
+      projectPath: Assets\plattform\SAnd3.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: "Sprite.prefab.meta\tAssets\\plattform\\SAnd3.prefab.meta"
+      fullPath: "C:\\Users\\Olivia Kaufmann\\Documents\\HSLU\\5.SemesterHS18\\GAMEDEV\\UnityProjects\\KobraKool\\Sprite.prefab.meta\tAssets\\plattform\\SAnd3.prefab.meta"
+      projectPath: "Sprite.prefab.meta\tAssets\\plattform\\SAnd3.prefab.meta"
+      originalPath: Assets\New
+      status: 6
+      staged: 0
+    - path: Assets\plattform\bouncy1.prefab
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\plattform\bouncy1.prefab
+      projectPath: Assets\plattform\bouncy1.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\plattform\bouncy1.prefab.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\plattform\bouncy1.prefab.meta
+      projectPath: Assets\plattform\bouncy1.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\plattform\bouncy3.prefab
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\plattform\bouncy3.prefab
+      projectPath: Assets\plattform\bouncy3.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\plattform\bouncy3.prefab.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\plattform\bouncy3.prefab.meta
+      projectPath: Assets\plattform\bouncy3.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: "Sprite.prefab\tAssets\\plattform\\sand.prefab"
+      fullPath: "C:\\Users\\Olivia Kaufmann\\Documents\\HSLU\\5.SemesterHS18\\GAMEDEV\\UnityProjects\\KobraKool\\Sprite.prefab\tAssets\\plattform\\sand.prefab"
+      projectPath: "Sprite.prefab\tAssets\\plattform\\sand.prefab"
+      originalPath: Assets\New
+      status: 6
+      staged: 0
+    - path: Assets\plattform\sand.prefab.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\plattform\sand.prefab.meta
+      projectPath: Assets\plattform\sand.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\plattform\slowPlattform.prefab
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\plattform\slowPlattform.prefab
+      projectPath: Assets\plattform\slowPlattform.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\plattform\slowPlattform.prefab.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\plattform\slowPlattform.prefab.meta
+      projectPath: Assets\plattform\slowPlattform.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\plattform\slowPlattform3.prefab
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\plattform\slowPlattform3.prefab
+      projectPath: Assets\plattform\slowPlattform3.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\plattform\slowPlattform3.prefab.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\plattform\slowPlattform3.prefab.meta
+      projectPath: Assets\plattform\slowPlattform3.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\DynamicsManager.asset
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\ProjectSettings\DynamicsManager.asset
+      projectPath: ProjectSettings\DynamicsManager.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings\EditorSettings.asset
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\ProjectSettings\EditorSettings.asset
+      projectPath: ProjectSettings\EditorSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings\Physics2DSettings.asset
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\ProjectSettings\Physics2DSettings.asset
+      projectPath: ProjectSettings\Physics2DSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\ProjectSettings\PresetManager.asset
+      projectPath: ProjectSettings\PresetManager.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 3cf3c0fba3cc09a3a332ed60b1a29d6071f17800
+    mergeA: 
+    mergeB: 
+    authorName: Olivia Kaufmann
+    authorEmail: olivia.kaufmann@stud.hslu.ch
+    commitEmail: olivia.kaufmann@stud.hslu.ch
+    commitName: Olivia Kaufmann
+    summary: secondcommit
+    description: secondcommit
+    timeString: 2018-11-09T17:54:46.000+01:00
+    commitTimeString: 2018-11-09T17:54:46.000+01:00
+    changes:
+    - path: .gitattributes
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\.gitattributes
+      projectPath: .gitattributes
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: .gitignore
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.pdb.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Api.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.pdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Packages\manifest.json
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\AudioManager.asset
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\ProjectSettings\AudioManager.asset
+      projectPath: ProjectSettings\AudioManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\ClusterInputManager.asset
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\ProjectSettings\ClusterInputManager.asset
+      projectPath: ProjectSettings\ClusterInputManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\DynamicsManager.asset
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\ProjectSettings\DynamicsManager.asset
+      projectPath: ProjectSettings\DynamicsManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\EditorSettings.asset
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\ProjectSettings\EditorSettings.asset
+      projectPath: ProjectSettings\EditorSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\InputManager.asset
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\ProjectSettings\InputManager.asset
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\NavMeshAreas.asset
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\ProjectSettings\NavMeshAreas.asset
+      projectPath: ProjectSettings\NavMeshAreas.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\NetworkManager.asset
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\ProjectSettings\NetworkManager.asset
+      projectPath: ProjectSettings\NetworkManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\Physics2DSettings.asset
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\ProjectSettings\Physics2DSettings.asset
+      projectPath: ProjectSettings\Physics2DSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\ProjectSettings\PresetManager.asset
+      projectPath: ProjectSettings\PresetManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\TimeManager.asset
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\ProjectSettings\TimeManager.asset
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\UnityConnectSettings.asset
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\ProjectSettings\UnityConnectSettings.asset
+      projectPath: ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: 8ac87435c80b1605014aa8cb58792eca2a2160ec
+    mergeA: 
+    mergeB: 
+    authorName: Olivia Kaufmann
+    authorEmail: olivia.kaufmann@stud.hslu.ch
+    commitEmail: olivia.kaufmann@stud.hslu.ch
+    commitName: Olivia Kaufmann
+    summary: first test commit
+    description: first test commit
+    timeString: 2018-11-09T17:45:22.000+01:00
+    commitTimeString: 2018-11-09T17:45:22.000+01:00
+    changes:
+    - path: Assets\.gitignore
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\.gitignore
+      projectPath: Assets\.gitignore
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\New Sprite.prefab
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\New
+        Sprite.prefab
+      projectPath: Assets\New Sprite.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\New Sprite.prefab.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\New
+        Sprite.prefab.meta
+      projectPath: Assets\New Sprite.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins.meta
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub.meta
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Plugins\GitHub\Editor.meta
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ProBuilder Data.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\ProBuilder
+        Data.meta
+      projectPath: Assets\ProBuilder Data.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ProBuilder Data\ProBuilderPreferences.asset
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\ProBuilder
+        Data\ProBuilderPreferences.asset
+      projectPath: Assets\ProBuilder Data\ProBuilderPreferences.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\ProBuilder Data\ProBuilderPreferences.asset.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\ProBuilder
+        Data\ProBuilderPreferences.asset.meta
+      projectPath: Assets\ProBuilder Data\ProBuilderPreferences.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Scenes.meta
+      projectPath: Assets\Scenes.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\SampleScene.unity.meta
+      fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Scenes\SampleScene.unity.meta
+      projectPath: Assets\Scenes\SampleScene.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
