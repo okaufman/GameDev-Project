@@ -3,7 +3,15 @@ guid: 6866bb03500b05043837c698d48aab56
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - firePointRight: {instanceID: 0}
+  - firePointLeft: {instanceID: 0}
+  - firePoint: {instanceID: 0}
+  - smallBulletRight: {fileID: 50868781495701498, guid: d39b60e4ad2b0494a9984f219b4306c9,
+      type: 2}
+  - smallBulletLeft: {fileID: 50028352672759182, guid: 87a742a5137117f43906183607fef6b9,
+      type: 2}
+  - Player: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
