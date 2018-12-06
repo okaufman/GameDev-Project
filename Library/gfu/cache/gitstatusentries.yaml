@@ -12,36 +12,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-12-06T21:44:10.070+01:00
-  initializedAtString: 2018-12-06T21:19:54.535+01:00
-  entries:
-  - path: Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/gfu/cache/gitlog.yaml
-    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/gfu/cache/gitlog.yaml
-    projectPath: Library/gfu/cache/gitlog.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/gfu/cache/gitstatusentries.yaml
-    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/gfu/cache/gitstatusentries.yaml
-    projectPath: Library/gfu/cache/gitstatusentries.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/gfu/cache/gittrackingstatus.yaml
-    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/gfu/cache/gittrackingstatus.yaml
-    projectPath: Library/gfu/cache/gittrackingstatus.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/gfu/cache/repoinfo.yaml
-    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/gfu/cache/repoinfo.yaml
-    projectPath: Library/gfu/cache/repoinfo.yaml
-    originalPath: 
-    status: 3
-    staged: 0
+  lastUpdatedAtString: 0001-01-01T00:00:00.000+00:00
+  initializedAtString: 0001-01-01T00:00:00.000+00:00
+  entries: []
