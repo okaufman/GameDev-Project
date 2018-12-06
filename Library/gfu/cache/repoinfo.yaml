@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2018-12-06T21:02:38.218+01:00
-  initializedAtString: 2018-12-06T21:02:38.218+01:00
+  lastUpdatedAtString: 2018-12-06T21:43:07.522+01:00
+  initializedAtString: 2018-12-06T21:19:54.239+01:00
   currentGitRemote:
     name: origin
     url: https://github.com/okaufman/GameDev-Project.git
