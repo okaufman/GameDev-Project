@@ -12,9 +12,51 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-11-20T13:47:05.625+01:00
-  initializedAtString: 2018-11-20T13:30:49.235+01:00
+  lastUpdatedAtString: 2018-11-20T13:50:15.723+01:00
+  initializedAtString: 2018-11-20T13:50:15.723+01:00
   log:
+  - commitID: 4cdae1d4249800256cb7c94c1ac0ee828f97b14c
+    mergeA: 
+    mergeB: 
+    authorName: Elia Grifo
+    authorEmail: elia.grifo@stud.hslu.ch
+    commitEmail: elia.grifo@stud.hslu.ch
+    commitName: Elia Grifo
+    summary: Library
+    description: Library
+    timeString: 2018-11-20T13:47:18.000+01:00
+    commitTimeString: 2018-11-20T13:47:18.000+01:00
+    changes:
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 511b8c521760287caf7fe256f4aed6f9c0380efe
     mergeA: 
     mergeB: 

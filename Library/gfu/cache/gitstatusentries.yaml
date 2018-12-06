@@ -12,12 +12,342 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-11-20T13:47:05.481+01:00
-  initializedAtString: 2018-11-20T13:30:10.394+01:00
+  lastUpdatedAtString: 2018-12-06T21:12:00.429+01:00
+  initializedAtString: 2018-12-06T21:02:38.565+01:00
   entries:
+  - path: Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/bear.png
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/bear.png
+    projectPath: Assets/bear.png
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets/bear.png.meta
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/bear.png.meta
+    projectPath: Assets/bear.png.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets/bear_1.controller
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/bear_1.controller
+    projectPath: Assets/bear_1.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/bear_1.controller.meta
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/bear_1.controller.meta
+    projectPath: Assets/bear_1.controller.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Bear_Player.anim
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Bear_Player.anim
+    projectPath: Assets/Bear_Player.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Bear_Player.anim.meta
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Bear_Player.anim.meta
+    projectPath: Assets/Bear_Player.anim.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Player.cs
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Player.cs
+    projectPath: Assets/Player.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Player.cs.meta
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Player.cs.meta
+    projectPath: Assets/Player.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Resources.meta
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Resources.meta
+    projectPath: Assets/Resources.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Resources/bear.png
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Resources/bear.png
+    projectPath: Assets/Resources/bear.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Resources/bear.png.meta
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Resources/bear.png.meta
+    projectPath: Assets/Resources/bear.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Resources/warior.png
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Resources/warior.png
+    projectPath: Assets/Resources/warior.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Resources/warior.png.meta
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Resources/warior.png.meta
+    projectPath: Assets/Resources/warior.png.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/Scenes/plattformscene.unity
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Scenes/plattformscene.unity
+    projectPath: Assets/Scenes/plattformscene.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Scenes/SampleScene.unity
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Scenes/SampleScene.unity
+    projectPath: Assets/Scenes/SampleScene.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/warior.png
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/warior.png
+    projectPath: Assets/warior.png
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Assets/warior.png.meta
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/warior.png.meta
+    projectPath: Assets/warior.png.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/assetDatabase3
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/assetDatabase3
+    projectPath: Library/assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/AssetImportState
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/AssetImportState
+    projectPath: Library/AssetImportState
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/CurrentLayout.dwlt
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/CurrentLayout.dwlt
+    projectPath: Library/CurrentLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/EditorInstance.json
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/EditorInstance.json
+    projectPath: Library/EditorInstance.json
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/EditorUserBuildSettings.asset
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/EditorUserBuildSettings.asset
+    projectPath: Library/EditorUserBuildSettings.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/expandedItems
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/expandedItems
+    projectPath: Library/expandedItems
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library/gfu/cache/branches.yaml
     fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/gfu/cache/branches.yaml
     projectPath: Library/gfu/cache/branches.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gitlocks.yaml
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/gfu/cache/gitlocks.yaml
+    projectPath: Library/gfu/cache/gitlocks.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gitlog.yaml
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/gfu/cache/gitlog.yaml
+    projectPath: Library/gfu/cache/gitlog.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gitstatusentries.yaml
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/gfu/cache/gitstatusentries.yaml
+    projectPath: Library/gfu/cache/gitstatusentries.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gittrackingstatus.yaml
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/gfu/cache/gittrackingstatus.yaml
+    projectPath: Library/gfu/cache/gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gituser.yaml
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/gfu/cache/gituser.yaml
+    projectPath: Library/gfu/cache/gituser.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/repoinfo.yaml
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/gfu/cache/repoinfo.yaml
+    projectPath: Library/gfu/cache/repoinfo.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/InspectorExpandedItems.asset
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/InspectorExpandedItems.asset
+    projectPath: Library/InspectorExpandedItems.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/LastSceneManagerSetup.txt
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/LastSceneManagerSetup.txt
+    projectPath: Library/LastSceneManagerSetup.txt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/26/2642008eb81683d4dbc7cd4ad6a2c485
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/26/2642008eb81683d4dbc7cd4ad6a2c485
+    projectPath: Library/metadata/26/2642008eb81683d4dbc7cd4ad6a2c485
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/26/2642008eb81683d4dbc7cd4ad6a2c485.info
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/26/2642008eb81683d4dbc7cd4ad6a2c485.info
+    projectPath: Library/metadata/26/2642008eb81683d4dbc7cd4ad6a2c485.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5
+    projectPath: Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5.info
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5.info
+    projectPath: Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677
+    projectPath: Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677.info
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677.info
+    projectPath: Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/4a/4a813084baf34314aa7b09881c317646
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/4a/4a813084baf34314aa7b09881c317646
+    projectPath: Library/metadata/4a/4a813084baf34314aa7b09881c317646
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/4a/4a813084baf34314aa7b09881c317646.info
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/4a/4a813084baf34314aa7b09881c317646.info
+    projectPath: Library/metadata/4a/4a813084baf34314aa7b09881c317646.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/69/6981461fe431401459211818212a29cf
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/69/6981461fe431401459211818212a29cf
+    projectPath: Library/metadata/69/6981461fe431401459211818212a29cf
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/69/6981461fe431401459211818212a29cf.info
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/69/6981461fe431401459211818212a29cf.info
+    projectPath: Library/metadata/69/6981461fe431401459211818212a29cf.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390
+    projectPath: Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390.info
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390.info
+    projectPath: Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/d0/d05b96cee66e14240838de167097537a
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/d0/d05b96cee66e14240838de167097537a
+    projectPath: Library/metadata/d0/d05b96cee66e14240838de167097537a
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/d0/d05b96cee66e14240838de167097537a.info
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/d0/d05b96cee66e14240838de167097537a.info
+    projectPath: Library/metadata/d0/d05b96cee66e14240838de167097537a.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/db/db2c1ccad7abc5945acd3342facc4e4c
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/db/db2c1ccad7abc5945acd3342facc4e4c
+    projectPath: Library/metadata/db/db2c1ccad7abc5945acd3342facc4e4c
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/db/db2c1ccad7abc5945acd3342facc4e4c.info
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/db/db2c1ccad7abc5945acd3342facc4e4c.info
+    projectPath: Library/metadata/db/db2c1ccad7abc5945acd3342facc4e4c.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/e3/e33383ce3afd26c41a6994f0af6a6743
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/e3/e33383ce3afd26c41a6994f0af6a6743
+    projectPath: Library/metadata/e3/e33383ce3afd26c41a6994f0af6a6743
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/metadata/e3/e33383ce3afd26c41a6994f0af6a6743.info
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/e3/e33383ce3afd26c41a6994f0af6a6743.info
+    projectPath: Library/metadata/e3/e33383ce3afd26c41a6994f0af6a6743.info
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: Library/ShaderCache.db
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/ShaderCache.db
+    projectPath: Library/ShaderCache.db
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: ProjectSettings/ProjectVersion.txt
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/ProjectSettings/ProjectVersion.txt
+    projectPath: ProjectSettings/ProjectVersion.txt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: ProjectSettings/QualitySettings.asset
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/ProjectSettings/QualitySettings.asset
+    projectPath: ProjectSettings/QualitySettings.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: ProjectSettings/TagManager.asset
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/ProjectSettings/TagManager.asset
+    projectPath: ProjectSettings/TagManager.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: ProjectSettings/UnityConnectSettings.asset
+    fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/ProjectSettings/UnityConnectSettings.asset
+    projectPath: ProjectSettings/UnityConnectSettings.asset
     originalPath: 
     status: 3
     staged: 0
