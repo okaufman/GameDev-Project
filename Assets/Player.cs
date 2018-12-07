@@ -5,13 +5,13 @@ using UnityEngine;
 public class Player : MonoBehaviour {
 
     private bool isDead = false;
-    private float speedForce = 20f;
-    private float maxSpeed = 30f;
-    private float jumpForce = 1000f;
+    private float speedForce = 15f;
+    private float maxSpeed = 20f;
+    private float jumpForce = 600f;
     private bool grounded = true;
 
     private Animator animator;
-    private Rigidbody2D rb2d;
+    private Rigidbody rb2d;
     private SpriteRenderer spriteRenderer;
     private Sprite[] sprites;
     private int frame = 10;
@@ -21,7 +21,7 @@ public class Player : MonoBehaviour {
     void Start () {
         animator = GetComponent<Animator>();
         animator.enabled = false;
-        rb2d = GetComponent<Rigidbody2D>();
+        rb2d = GetComponent<Rigidbody>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         sprites = Resources.LoadAll<Sprite>("bear");
     }
@@ -64,10 +64,12 @@ public class Player : MonoBehaviour {
         spriteRenderer.sprite = sprites[frame];
     }
 
-    private void OnCollisionEnter2D(Collision2D collision) {
+    private void OnCollisionEnter(Collision collision)
+    {
         if (collision.gameObject.tag == "ground") {
-            grounded = true;
-        }
+        grounded = true;
+        
+    }
     }
 
     public void SetSpeedForce(float force) {
