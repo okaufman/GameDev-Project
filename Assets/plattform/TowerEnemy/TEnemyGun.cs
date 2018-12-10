@@ -11,13 +11,13 @@ public class TEnemyGun : MonoBehaviour
     public float nextFire = 0.0F;
     public float fireRate = 1;
     public int attackRange = 2;
+    public int Health = 75;
 
 
     // Use this for initialization
     void Start()
     {
-        int Health = 100;
-        int Resilience = 0;
+        
 
 
     }
@@ -58,8 +58,11 @@ public class TEnemyGun : MonoBehaviour
     {
         firePoint.LookAt(Player);
     }
+    public void takeDamage(int damage)
+    {
+        this.Health -= damage;
+    }
 
-    
 
 
 

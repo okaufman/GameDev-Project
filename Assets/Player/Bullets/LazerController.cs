@@ -2,20 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyBullet : MonoBehaviour {
+public class LazerController : MonoBehaviour {
+    public int speed = 20;
+   
 
 	// Use this for initialization
 	void Start () {
-		
+        GetComponent<Rigidbody>().velocity = transform.right * speed;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
     private void OnCollisionEnter()
     {
-        //print("DEstroyed");
+        print("DEstroyed");
         Destroy(gameObject);
     }
+
+
 }

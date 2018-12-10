@@ -1,8 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class EnemyBullet : MonoBehaviour {
+public class PlayerHealth : MonoBehaviour {
+
+
+    public int startingHealth = 100;
+    public int currentHealth;
+    public Slider healthSlider;
+
+    bool isDead;
+
 
 	// Use this for initialization
 	void Start () {
@@ -13,9 +22,4 @@ public class EnemyBullet : MonoBehaviour {
 	void Update () {
 		
 	}
-    private void OnCollisionEnter()
-    {
-        //print("DEstroyed");
-        Destroy(gameObject);
-    }
 }

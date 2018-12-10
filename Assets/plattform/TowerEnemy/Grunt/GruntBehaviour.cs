@@ -12,6 +12,7 @@ public class GruntBehaviour : MonoBehaviour {
     public float nextFire = 0.0F;
     public float fireRate = 1;
     public int attackRange = 2;
+    public int Health = 50;
     // private Vector3 moveDirection = Vector3.zero;
 
     // Use this for initialization
@@ -69,6 +70,9 @@ public class GruntBehaviour : MonoBehaviour {
         Bullet.AddForce(firePoint.forward * 400);
         //print("fired");
     }
-
+    public void takeDamage(int damage)
+    {
+        this.Health -= damage;
+    }
 
 }
