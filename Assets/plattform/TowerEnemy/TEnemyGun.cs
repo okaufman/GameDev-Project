@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class TEnemyGun : MonoBehaviour
 {
@@ -12,6 +13,10 @@ public class TEnemyGun : MonoBehaviour
     public float fireRate = 1;
     public int attackRange = 2;
     public int Health = 75;
+
+    //Event to manage Points the PLayer gets
+    //public event Action getPoint = delegate { };
+    //public event Action get10Points = delegate { };
 
 
     // Use this for initialization
@@ -63,7 +68,23 @@ public class TEnemyGun : MonoBehaviour
         this.Health -= damage;
     }
 
-
+    void OnCollisionEnter(Collision collision)
+    {
+        //take damage when hit by bullet
+        if (collision.gameObject.tag == "PlayerBullet")
+        {
+            takeDamage(10);
+            //getPoint();
+            UIPoints.UIpts += 1;
+            if (this.Health <= 0)
+            {
+                //get10Points();
+                UIPoints.UIpts += 1;
+                Destroy(gameObject);
+                
+            }
+        }
+    }
 
 
 }

@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour {
 
    //[SerializeField]
     private InputManager inputManager;
     public event Action FireWeapon = delegate { };
-    public int Health = 100;
+   // public int Health = 100;
 
     private bool isDead = false;
     private float speedForce = 15f;
@@ -67,7 +68,10 @@ public class Player : MonoBehaviour {
             }
         }
 
+       
         
+
+
     }
 
     private void animate() {
@@ -85,10 +89,19 @@ public class Player : MonoBehaviour {
 
     private void OnCollisionEnter(Collision collision)
     {
+        //be able to jump again, when you have hit the ground
         if (collision.gameObject.tag == "ground") {
         grounded = true;
-        
     }
+        //take damage when hit by bullet
+        if (collision.gameObject.tag == "EnemyBullet")
+        {
+            takeDamage(10);
+            if (UIHealth.health <= 0)
+            {
+                SceneManager.LoadScene(0);
+            }
+        }
     }
 
     public void SetSpeedForce(float force) {
@@ -101,7 +114,7 @@ public class Player : MonoBehaviour {
 
     public void takeDamage(int damage)
     {
-        this.Health -= damage;
+        UIHealth.health -= damage;
     }
 
      void OnAttack()
