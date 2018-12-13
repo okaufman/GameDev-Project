@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class GruntBehaviour : MonoBehaviour {
     public float speed = 4.0F;
@@ -12,7 +13,12 @@ public class GruntBehaviour : MonoBehaviour {
     public float nextFire = 0.0F;
     public float fireRate = 1;
     public int attackRange = 2;
-    // private Vector3 moveDirection = Vector3.zero;
+    public int Health = 50;
+
+    //Event to manage Points the PLayer gets
+   // public event Action getPoint = delegate { };
+    //public event Action get10Points = delegate { };
+
 
     // Use this for initialization
     void Start () {
@@ -46,6 +52,12 @@ public class GruntBehaviour : MonoBehaviour {
     
     void OnCollisionEnter(Collision collision)
     {
+        //take damage when hit by bullet
+        if (collision.gameObject.tag == "PlayerBullet")
+        {
+            takeDamage(10);
+        }
+
         switchDirection();
     }
 
@@ -66,9 +78,22 @@ public class GruntBehaviour : MonoBehaviour {
         firePoint.LookAt(Player);
 
         Rigidbody Bullet = Instantiate(smallBullet, firePoint.position + firePoint.forward, firePoint.rotation);
-        Bullet.AddForce(firePoint.forward * 400);
+        Bullet.AddForce(firePoint.forward * 800);
         //print("fired");
     }
 
+    public void takeDamage(int damage)
+    {
+        this.Health -= damage;
+        //getPoint();
+        UIPoints.UIpts += 1;
+        if(this.Health<= 0)
+        {
+            //get10Points();
+            UIPoints.UIpts += 10;
+            Destroy(gameObject);
+           
+        }
+    }
 
 }

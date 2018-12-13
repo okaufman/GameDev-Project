@@ -5,7 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/StartUI.unity
+    guid: a6d5100d2e5fbd54985e1cb7d8a77b1c
+  - enabled: 0
+    path: Assets/Scenes/OliviaSceneold.unity
+    guid: 2e8e948d30393194c8a9ad14998b4e09
+  - enabled: 1
+    path: Assets/Scenes/OliviaScene.unity
+    guid: 5315bf3186f9dac438f416e55e2ffd72
   m_configObjects: {}
