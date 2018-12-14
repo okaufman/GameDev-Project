@@ -12,15 +12,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2018-12-06T22:25:57.788+01:00
-  initializedAtString: 2018-12-06T22:25:57.780+01:00
+  lastUpdatedAtString: 2018-12-14T16:25:32.107+01:00
+  initializedAtString: 2018-12-14T16:25:32.059+01:00
   localBranches:
   - name: master
     tracking: origin/master
+  - name: OliviaTest
+    tracking: 
   remoteBranches:
-  - name: origin/OliviaTest
-    tracking: '[None]'
   - name: origin/master
+    tracking: '[None]'
+  - name: origin/OliviaTest
     tracking: '[None]'
   remotes:
   - name: origin
@@ -30,30 +32,43 @@ MonoBehaviour:
     host: 
     function: 0
     token: 
+  - name: new
+    url: master
+    login: 
+    user: 
+    host: 
+    function: 0
+    token: 
   localConfigBranches:
     keys:
     - master
+    - OliviaTest
     values:
     - name: master
       remote:
         name: origin
         url: https://github.com/okaufman/GameDev-Project.git
       trackingBranch: master
+    - name: OliviaTest
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
-      - OliviaTest
       - master
+      - OliviaTest
     subKeyValues:
     - Values:
-      - name: OliviaTest
+      - name: master
         remote:
           name: origin
           url: https://github.com/okaufman/GameDev-Project.git
         trackingBranch: 
-      - name: master
+      - name: OliviaTest
         remote:
           name: origin
           url: https://github.com/okaufman/GameDev-Project.git
@@ -61,6 +76,9 @@ MonoBehaviour:
   configRemotes:
     keys:
     - origin
+    - new
     values:
     - name: origin
       url: https://github.com/okaufman/GameDev-Project.git
+    - name: new
+      url: master
