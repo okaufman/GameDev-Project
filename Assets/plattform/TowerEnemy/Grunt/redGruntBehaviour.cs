@@ -80,7 +80,7 @@ public class redGruntBehaviour : MonoBehaviour  {
         firePoint.LookAt(Player);
 
         Rigidbody Bullet = Instantiate(smallBullet, firePoint.position + firePoint.forward, firePoint.rotation);
-        Bullet.AddForce(firePoint.forward * 800);
+        Bullet.AddForce(firePoint.forward * 700);
         //print("fired");
     }
 

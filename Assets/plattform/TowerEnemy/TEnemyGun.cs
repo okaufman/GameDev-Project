@@ -55,7 +55,7 @@ public class TEnemyGun : MonoBehaviour
         AimAtPlayer(firePoint);
         
         Rigidbody Bullet = Instantiate(smallBullet, firePoint.position + firePoint.forward, firePoint.rotation);
-        Bullet.AddForce(firePoint.forward * 200);
+        Bullet.AddForce(firePoint.forward * 400);
         //print("fired");
     }
     //TODO implement aimatplayer

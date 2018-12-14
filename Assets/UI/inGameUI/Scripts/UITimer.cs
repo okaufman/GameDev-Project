@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class UITimer : MonoBehaviour {
 
-    public float totalTime = 300;
+    public static float totalTime = 300;
     public Text windowText;
     public Text timerText;
     public float startTime;
