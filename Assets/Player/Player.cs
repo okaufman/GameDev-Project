@@ -26,6 +26,8 @@ public class Player : MonoBehaviour {
     private float frameSeconds = 0.1f;
 
     void Start () {
+        UIHealth.health = 100;
+        UIPoints.UIpts = 0;
         inputManager = FindObjectOfType<InputManager>();
         inputManager.PAttack += OnAttack;
         animator = GetComponent<Animator>();
@@ -63,7 +65,7 @@ public class Player : MonoBehaviour {
             if (Input.GetKey(KeyCode.RightArrow)) {
                 animate();
                 if (rb2d.velocity.x < maxSpeed)
-                    print(transform.forward);
+                    //print(transform.forward);
                     rb2d.AddForce(transform.right * speedForce);
             }
         }

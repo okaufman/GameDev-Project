@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
 
-public class GruntBehaviour : MonoBehaviour {
+public class redGruntBehaviour : MonoBehaviour  {
+
     public float speed = 4.0F;
     public Rigidbody myBody;
     public Transform myTransform;
@@ -11,21 +11,22 @@ public class GruntBehaviour : MonoBehaviour {
     public Rigidbody smallBullet;
     public Transform Player;
     public float nextFire = 0.0F;
-    public float fireRate = 1;
-    public int attackRange = 2;
-    public int Health = 50;
+    public float fireRate = 0.5F;
+    public int attackRange = 10;
+    public int Health = 80;
 
     //Event to manage Points the PLayer gets
-   // public event Action getPoint = delegate { };
+    // public event Action getPoint = delegate { };
     //public event Action get10Points = delegate { };
 
 
     // Use this for initialization
-    void Start () {
-       myBody= this.GetComponent <Rigidbody>();
-       myTransform = this.transform;
+    void Start()
+    {
+        myBody = this.GetComponent<Rigidbody>();
+        myTransform = this.transform;
 
-	}
+    }
 
     private void Update()
     {
@@ -34,22 +35,23 @@ public class GruntBehaviour : MonoBehaviour {
             if (Time.time > nextFire)
             {
 
-                    Shoot(firePoint);
-                    nextFire = Time.time + fireRate;
+                Shoot(firePoint);
+                nextFire = Time.time + fireRate;
 
             }
         }
     }
 
     // Update is called before Rendering
-    void FixedUpdate () {
+    void FixedUpdate()
+    {
         //Always move forward
         Vector2 myVel = myBody.velocity;
-        myVel.x = myTransform.right.x *speed;
+        myVel.x = myTransform.right.x * speed;
         myBody.velocity = myVel;
 
-	}
-    
+    }
+
     void OnCollisionEnter(Collision collision)
     {
         //take damage when hit by bullet
@@ -62,20 +64,20 @@ public class GruntBehaviour : MonoBehaviour {
     }
 
     void switchDirection()
-    {   
+    {
         //save current rotation
         Vector3 currRot = transform.eulerAngles;
         //change rotation
         currRot.y += 180;
         //assign new Rotation to object
         transform.eulerAngles = currRot;
-        
+
     }
 
     void Shoot(Transform firePoint)
     {
 
-        //firePoint.LookAt(Player);
+        firePoint.LookAt(Player);
 
         Rigidbody Bullet = Instantiate(smallBullet, firePoint.position + firePoint.forward, firePoint.rotation);
         Bullet.AddForce(firePoint.forward * 800);
@@ -87,13 +89,12 @@ public class GruntBehaviour : MonoBehaviour {
         this.Health -= damage;
         //getPoint();
         UIPoints.UIpts += 1;
-        if(this.Health<= 0)
+        if (this.Health <= 0)
         {
             //get10Points();
-            UIPoints.UIpts += 10;
+            UIPoints.UIpts += 20;
             Destroy(gameObject);
-           
+
         }
     }
-
 }

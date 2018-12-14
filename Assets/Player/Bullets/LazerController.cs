@@ -13,7 +13,7 @@ public class LazerController : MonoBehaviour {
 
     private void OnCollisionEnter()
     {
-        print("DEstroyed");
+        
         Destroy(gameObject);
     }
 
