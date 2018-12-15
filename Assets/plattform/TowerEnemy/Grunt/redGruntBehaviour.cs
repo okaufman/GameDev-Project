@@ -30,8 +30,7 @@ public class redGruntBehaviour : MonoBehaviour  {
 
     private void Update()
     {
-        if ((Vector3.Distance(firePoint.position, Player.position) < attackRange))
-        {
+        
             if (Time.time > nextFire)
             {
 
@@ -39,7 +38,7 @@ public class redGruntBehaviour : MonoBehaviour  {
                 nextFire = Time.time + fireRate;
 
             }
-        }
+        
     }
 
     // Update is called before Rendering
@@ -77,10 +76,7 @@ public class redGruntBehaviour : MonoBehaviour  {
     void Shoot(Transform firePoint)
     {
 
-        firePoint.LookAt(Player);
-
-        Rigidbody Bullet = Instantiate(smallBullet, firePoint.position + firePoint.forward, firePoint.rotation);
-        Bullet.AddForce(firePoint.forward * 700);
+        Instantiate(smallBullet, firePoint.position, firePoint.rotation).AddForce(firePoint.right * 800);
         //print("fired");
     }
 

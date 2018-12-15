@@ -15,7 +15,7 @@ public class PickUpKey : MonoBehaviour {
 	}
 
     private void OnCollisionEnter(Collision collision) {
-        if (collision.gameObject.tag == "Player") {
+        if (collision.gameObject.tag == "Player" || collision.gameObject.tag=="redPlayer") {
             Destroy(gameObject);
             UIKeys.KeysFound++;
         }

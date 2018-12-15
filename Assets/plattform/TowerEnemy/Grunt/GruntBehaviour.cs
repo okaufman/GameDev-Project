@@ -14,6 +14,8 @@ public class GruntBehaviour : MonoBehaviour {
     public int attackRange = 2;
     public int Health = 50;
 
+    public AudioSource sound;
+
     
 
 
@@ -21,7 +23,8 @@ public class GruntBehaviour : MonoBehaviour {
     void Start () {
        myBody= this.GetComponent <Rigidbody>();
        myTransform = this.transform;
-
+       
+        
 	}
 
     private void Update()
@@ -68,6 +71,8 @@ public class GruntBehaviour : MonoBehaviour {
     {
         if (other.gameObject.tag == "redPlayer")
         {
+            
+            sound.Play();
             beenjumped();
         }
     }
@@ -88,6 +93,7 @@ public class GruntBehaviour : MonoBehaviour {
 
         //firePoint.LookAt(Player);
         Instantiate(smallBullet, firePoint.position, firePoint.rotation).AddForce(firePoint.right * 800);
+        
         //Rigidbody Bullet = Instantiate(smallBullet, firePoint.position , firePoint.rotation);
         //Bullet.AddForce(firePoint.forward * 800);
         //print("fired");
@@ -109,7 +115,7 @@ public class GruntBehaviour : MonoBehaviour {
 
     public void beenjumped()
     {
-        Destroy(gameObject);
+        Destroy(gameObject, 0.1f);
         UIPoints.UIpts += 10;
     }
 

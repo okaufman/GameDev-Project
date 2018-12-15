@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UITimer : MonoBehaviour {
 
@@ -31,7 +32,6 @@ public class UITimer : MonoBehaviour {
 
     void timerEnded()
     {
-        windowText.text = "Time is Up";
-        print(windowText);
+        SceneManager.LoadScene(0);
     }
 }
