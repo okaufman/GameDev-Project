@@ -12,6 +12,348 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
+<<<<<<< HEAD
   lastUpdatedAtString: 2018-12-19T22:19:41.113+01:00
   initializedAtString: 2018-12-19T22:19:40.684+01:00
   entries: []
+=======
+  lastUpdatedAtString: 2018-12-14T16:48:01.234+01:00
+  initializedAtString: 2018-12-14T15:37:55.258+01:00
+  entries:
+  - path: Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\plattform\MAterials\BouncyMaterial.mat
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\plattform\MAterials\BouncyMaterial.mat
+    projectPath: Assets\plattform\MAterials\BouncyMaterial.mat
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\plattform\MAterials\sandMaterial.mat
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\plattform\MAterials\sandMaterial.mat
+    projectPath: Assets\plattform\MAterials\sandMaterial.mat
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\plattform\MAterials\slowMAterial.mat
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\plattform\MAterials\slowMAterial.mat
+    projectPath: Assets\plattform\MAterials\slowMAterial.mat
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\plattform\TowerEnemy\Grunt\GruntBehaviour.cs
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\plattform\TowerEnemy\Grunt\GruntBehaviour.cs
+    projectPath: Assets\plattform\TowerEnemy\Grunt\GruntBehaviour.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\plattform\TowerEnemy\Grunt\redAlienEnemy.prefab
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\plattform\TowerEnemy\Grunt\redAlienEnemy.prefab
+    projectPath: Assets\plattform\TowerEnemy\Grunt\redAlienEnemy.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\plattform\TowerEnemy\Grunt\redAlienEnemy.prefab.meta
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\plattform\TowerEnemy\Grunt\redAlienEnemy.prefab.meta
+    projectPath: Assets\plattform\TowerEnemy\Grunt\redAlienEnemy.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\plattform\TowerEnemy\Grunt\redGruntBehaviour.cs
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\plattform\TowerEnemy\Grunt\redGruntBehaviour.cs
+    projectPath: Assets\plattform\TowerEnemy\Grunt\redGruntBehaviour.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\plattform\TowerEnemy\Grunt\redGruntBehaviour.cs.meta
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\plattform\TowerEnemy\Grunt\redGruntBehaviour.cs.meta
+    projectPath: Assets\plattform\TowerEnemy\Grunt\redGruntBehaviour.cs.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Player\Bullets\LazerController.cs
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Player\Bullets\LazerController.cs
+    projectPath: Assets\Player\Bullets\LazerController.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Player\Player.cs
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Player\Player.cs
+    projectPath: Assets\Player\Player.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Player\Player.prefab
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Player\Player.prefab
+    projectPath: Assets\Player\Player.prefab
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Player\Playerblue.prefab
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Player\Playerblue.prefab
+    projectPath: Assets\Player\Playerblue.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Player\Playerblue.prefab.meta
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Player\Playerblue.prefab.meta
+    projectPath: Assets\Player\Playerblue.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Player\Playergreen.prefab
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Player\Playergreen.prefab
+    projectPath: Assets\Player\Playergreen.prefab
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Player\Playergreen.prefab.meta
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Player\Playergreen.prefab.meta
+    projectPath: Assets\Player\Playergreen.prefab.meta
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Scenes\EliaScene.unity
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Scenes\EliaScene.unity
+    projectPath: Assets\Scenes\EliaScene.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scenes\OliviaScene.unity
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Scenes\OliviaScene.unity
+    projectPath: Assets\Scenes\OliviaScene.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scenes\OliviaSceneold.unity
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Scenes\OliviaSceneold.unity
+    projectPath: Assets\Scenes\OliviaSceneold.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scenes\StartUI.unity
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Assets\Scenes\StartUI.unity
+    projectPath: Assets\Scenes\StartUI.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\assetDatabase3
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\assetDatabase3
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\CurrentLayout.dwlt
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\CurrentLayout.dwlt
+    projectPath: Library\CurrentLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\EditorInstance.json
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\expandedItems
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\expandedItems
+    projectPath: Library\expandedItems
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\branches.yaml
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitlog.yaml
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gituser.yaml
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\gfu\cache\gituser.yaml
+    projectPath: Library\gfu\cache\gituser.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\LastSceneManagerSetup.txt
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\LastSceneManagerSetup.txt
+    projectPath: Library\LastSceneManagerSetup.txt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\10\10145f279f90346bbb61712ff585828b
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\metadata\10\10145f279f90346bbb61712ff585828b
+    projectPath: Library\metadata\10\10145f279f90346bbb61712ff585828b
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\17\17803d0e6b1e22f45bc18ae033f4cc4a.info
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\metadata\17\17803d0e6b1e22f45bc18ae033f4cc4a.info
+    projectPath: Library\metadata\17\17803d0e6b1e22f45bc18ae033f4cc4a.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\25\25ebe415cc14c4f4ea15c34a796b75bb
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\metadata\25\25ebe415cc14c4f4ea15c34a796b75bb
+    projectPath: Library\metadata\25\25ebe415cc14c4f4ea15c34a796b75bb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\33\33557022d13e9274585d5f422fc5dc3e.info
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\metadata\33\33557022d13e9274585d5f422fc5dc3e.info
+    projectPath: Library\metadata\33\33557022d13e9274585d5f422fc5dc3e.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\46\46c02d8d6499b4309ac1ec5d0b818585
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\metadata\46\46c02d8d6499b4309ac1ec5d0b818585
+    projectPath: Library\metadata\46\46c02d8d6499b4309ac1ec5d0b818585
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\4f\4f768b64e6c37495699fffe3007e4379
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\metadata\4f\4f768b64e6c37495699fffe3007e4379
+    projectPath: Library\metadata\4f\4f768b64e6c37495699fffe3007e4379
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\61\61fa01d0a02f6b5489f95ac1a607e966.info
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\metadata\61\61fa01d0a02f6b5489f95ac1a607e966.info
+    projectPath: Library\metadata\61\61fa01d0a02f6b5489f95ac1a607e966.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\6a\6a871de884a07ba409d1a2ee83a52f65.info
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\metadata\6a\6a871de884a07ba409d1a2ee83a52f65.info
+    projectPath: Library\metadata\6a\6a871de884a07ba409d1a2ee83a52f65.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\93\93c1370867fcb45079592da39e0994c5
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\metadata\93\93c1370867fcb45079592da39e0994c5
+    projectPath: Library\metadata\93\93c1370867fcb45079592da39e0994c5
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\9a\9ae99cf11fbed464db1014397ca36fca.info
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\metadata\9a\9ae99cf11fbed464db1014397ca36fca.info
+    projectPath: Library\metadata\9a\9ae99cf11fbed464db1014397ca36fca.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\a8\a8d9e44eff3f447db9448925617ccb44
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\metadata\a8\a8d9e44eff3f447db9448925617ccb44
+    projectPath: Library\metadata\a8\a8d9e44eff3f447db9448925617ccb44
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\ab\abdc053b8e3644f299aedc641d609a84
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\metadata\ab\abdc053b8e3644f299aedc641d609a84
+    projectPath: Library\metadata\ab\abdc053b8e3644f299aedc641d609a84
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\bb\bbec1324b05a54939ad2fea2d7e11063
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\metadata\bb\bbec1324b05a54939ad2fea2d7e11063
+    projectPath: Library\metadata\bb\bbec1324b05a54939ad2fea2d7e11063
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\c7\c7559cdbc33f04af1a5a42d2aa5b40a5
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\metadata\c7\c7559cdbc33f04af1a5a42d2aa5b40a5
+    projectPath: Library\metadata\c7\c7559cdbc33f04af1a5a42d2aa5b40a5
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\cd\cdb8c65d01a14964d845fcae2569bac4.info
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\metadata\cd\cdb8c65d01a14964d845fcae2569bac4.info
+    projectPath: Library\metadata\cd\cdb8c65d01a14964d845fcae2569bac4.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\d1\d1a6cde139a14594599e0a4948d08e51.info
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\metadata\d1\d1a6cde139a14594599e0a4948d08e51.info
+    projectPath: Library\metadata\d1\d1a6cde139a14594599e0a4948d08e51.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\dc\dc493660909fd2242acfee5f5fbd7b12.info
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\metadata\dc\dc493660909fd2242acfee5f5fbd7b12.info
+    projectPath: Library\metadata\dc\dc493660909fd2242acfee5f5fbd7b12.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\df\df463980ab42d0e4ab12490e10525822.info
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\metadata\df\df463980ab42d0e4ab12490e10525822.info
+    projectPath: Library\metadata\df\df463980ab42d0e4ab12490e10525822.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\e2\e2daf96b7c1c4a442ab1ca17bfa7001f.info
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\metadata\e2\e2daf96b7c1c4a442ab1ca17bfa7001f.info
+    projectPath: Library\metadata\e2\e2daf96b7c1c4a442ab1ca17bfa7001f.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\e9\e99a370585499a24185934a5d4973ef4.info
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\metadata\e9\e99a370585499a24185934a5d4973ef4.info
+    projectPath: Library\metadata\e9\e99a370585499a24185934a5d4973ef4.info
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\f4\f4da9cbb408be44968e85ee20767deef
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\metadata\f4\f4da9cbb408be44968e85ee20767deef
+    projectPath: Library\metadata\f4\f4da9cbb408be44968e85ee20767deef
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptMapper
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\ScriptMapper
+    projectPath: Library\ScriptMapper
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\Olivia Kaufmann\Documents\HSLU\5.SemesterHS18\GAMEDEV\UnityProjects\KobraKool\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    status: 3
+    staged: 0
+>>>>>>> 9a30ab4addcaccd9de7b6988e6a62341a83ffebc

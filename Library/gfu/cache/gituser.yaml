@@ -12,7 +12,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 7
+<<<<<<< HEAD
   lastUpdatedAtString: 2018-12-13T16:48:28.631+01:00
   initializedAtString: 2018-12-13T16:48:28.631+01:00
   gitName: Elia Grifo
   gitEmail: elia.grifo@stud.hslu.ch
+=======
+  lastUpdatedAtString: 2018-12-14T16:43:25.599+01:00
+  initializedAtString: 2018-12-14T16:25:33.159+01:00
+  gitName: Olivia Kaufmann
+  gitEmail: olivia.kaufmann@stud.hslu.ch
+>>>>>>> 9a30ab4addcaccd9de7b6988e6a62341a83ffebc

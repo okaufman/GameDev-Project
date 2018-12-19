@@ -133,6 +133,8 @@ MonoBehaviour:
   bulletPrefab: {fileID: 54652569444242418, guid: f1a643794ec426040b0cfe2ae0b85950,
     type: 2}
   LazerFirePoint: {fileID: 4181139246441712}
+  nextFire: 0
+  fireRate: 0.5
 --- !u!114 &114962210907309636
 MonoBehaviour:
   m_ObjectHideFlags: 1

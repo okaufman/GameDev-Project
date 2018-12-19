@@ -9,36 +9,37 @@ public class GruntBehaviour : MonoBehaviour {
     public Transform myTransform;
     public Transform firePoint;
     public Rigidbody smallBullet;
-    public Transform Player;
     public float nextFire = 0.0F;
     public float fireRate = 1;
     public int attackRange = 2;
     public int Health = 50;
 
-    //Event to manage Points the PLayer gets
-   // public event Action getPoint = delegate { };
-    //public event Action get10Points = delegate { };
+    public AudioSource sound;
+
+    
 
 
     // Use this for initialization
     void Start () {
        myBody= this.GetComponent <Rigidbody>();
        myTransform = this.transform;
-
+       
+        
 	}
 
     private void Update()
     {
-        if ((Vector3.Distance(firePoint.position, Player.position) < attackRange))
-        {
+        
             if (Time.time > nextFire)
             {
 
-                    Shoot(firePoint);
+                    Shoot();
                     nextFire = Time.time + fireRate;
 
             }
-        }
+        
+
+         
     }
 
     // Update is called before Rendering
@@ -52,13 +53,28 @@ public class GruntBehaviour : MonoBehaviour {
     
     void OnCollisionEnter(Collision collision)
     {
-        //take damage when hit by bullet
-        if (collision.gameObject.tag == "PlayerBullet")
+        if (collision.gameObject.tag != "EnemyBullet")
         {
-            takeDamage(10);
-        }
+            //take damage when hit by bullet
+            if (collision.gameObject.tag == "PlayerBullet")
+            {
+                takeDamage(10);
+            }
 
-        switchDirection();
+
+
+            switchDirection();
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "redPlayer")
+        {
+            
+            sound.Play();
+            beenjumped();
+        }
     }
 
     void switchDirection()
@@ -72,13 +88,14 @@ public class GruntBehaviour : MonoBehaviour {
         
     }
 
-    void Shoot(Transform firePoint)
+    void Shoot()
     {
 
-        firePoint.LookAt(Player);
-
-        Rigidbody Bullet = Instantiate(smallBullet, firePoint.position + firePoint.forward, firePoint.rotation);
-        Bullet.AddForce(firePoint.forward * 800);
+        //firePoint.LookAt(Player);
+        Instantiate(smallBullet, firePoint.position, firePoint.rotation).AddForce(firePoint.right * 800);
+        
+        //Rigidbody Bullet = Instantiate(smallBullet, firePoint.position , firePoint.rotation);
+        //Bullet.AddForce(firePoint.forward * 800);
         //print("fired");
     }
 
@@ -94,6 +111,12 @@ public class GruntBehaviour : MonoBehaviour {
             Destroy(gameObject);
            
         }
+    }
+
+    public void beenjumped()
+    {
+        Destroy(gameObject, 0.1f);
+        UIPoints.UIpts += 10;
     }
 
 }

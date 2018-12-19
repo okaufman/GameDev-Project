@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class UITimer : MonoBehaviour {
 
-    public float totalTime = 300;
+    public static float totalTime = 300;
     public Text windowText;
     public Text timerText;
     public float startTime;
@@ -31,7 +32,6 @@ public class UITimer : MonoBehaviour {
 
     void timerEnded()
     {
-        windowText.text = "Time is Up";
-        print(windowText);
+        SceneManager.LoadScene(0);
     }
 }

@@ -11,7 +11,7 @@ public class PlayerAttack : MonoBehaviour {
     private Vector3 startPosition;
 
     public float nextFire = 0.0F;
-    public float fireRate = 0.5F;
+    public float fireRate = 0.3F;
 
 	// Use this for initialization
 	void Start () {

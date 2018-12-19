@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/EliaScene.unity
+=======
+- path: Assets/Scenes/OliviaScene.unity
+>>>>>>> 9a30ab4addcaccd9de7b6988e6a62341a83ffebc
   isLoaded: 1
   isActive: 1
