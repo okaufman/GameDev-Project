@@ -12,9 +12,815 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-12-06T22:50:16.829+01:00
-  initializedAtString: 2018-12-06T22:23:34.606+01:00
+  lastUpdatedAtString: 2018-12-14T16:52:38.196+01:00
+  initializedAtString: 2018-12-14T16:15:48.299+01:00
   log:
+  - commitID: b7e8517c2c3e86877d42ed831bb5394a0f96070f
+    mergeA: 
+    mergeB: 
+    authorName: Elia Grifo
+    authorEmail: elia.grifo@stud.hslu.ch
+    commitEmail: elia.grifo@stud.hslu.ch
+    commitName: Elia Grifo
+    summary: Key Prefab
+    description: Key Prefab
+    timeString: 2018-12-14T16:51:18.000+01:00
+    commitTimeString: 2018-12-14T16:51:18.000+01:00
+    changes:
+    - path: Assets/Scenes/EliaScene.unity
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Scenes/EliaScene.unity
+      projectPath: Assets/Scenes/EliaScene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scenes/SampleScene.unity
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Scenes/SampleScene.unity
+      projectPath: Assets/Scenes/SampleScene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/Key.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/Key.prefab
+      projectPath: Assets/plattform/Key.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/Key.prefab.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/Key.prefab.meta
+      projectPath: Assets/plattform/Key.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: 698c960236cb3c0fb2a4c58f2a8879a90f4edb50
+    mergeA: 
+    mergeB: 
+    authorName: Elia Grifo
+    authorEmail: elia.grifo@stud.hslu.ch
+    commitEmail: elia.grifo@stud.hslu.ch
+    commitName: Elia Grifo
+    summary: Key picture and script
+    description: Key picture and script
+    timeString: 2018-12-14T16:12:39.000+01:00
+    commitTimeString: 2018-12-14T16:12:39.000+01:00
+    changes:
+    - path: Assets/PickUpKey.cs
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/PickUpKey.cs
+      projectPath: Assets/PickUpKey.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/PickUpKey.cs.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/PickUpKey.cs.meta
+      projectPath: Assets/PickUpKey.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Resources/key.png
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Resources/key.png
+      projectPath: Assets/Resources/key.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Resources/key.png.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Resources/key.png.meta
+      projectPath: Assets/Resources/key.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: 7c3f853057089282e44f4a3646a8a2820bc5e76a
+    mergeA: aac5aa6e8df15db15a3b75bbde3927e7dbac5b19
+    mergeB: 67ab0567e905da15ba6f346770294a0d75004ce8
+    authorName: Elia Grifo
+    authorEmail: elia.grifo@stud.hslu.ch
+    commitEmail: elia.grifo@stud.hslu.ch
+    commitName: Elia Grifo
+    summary: EliaScene Merge
+    description: EliaScene Merge
+    timeString: 2018-12-13T23:45:25.000+01:00
+    commitTimeString: 2018-12-13T23:45:25.000+01:00
+    changes: []
+  - commitID: aac5aa6e8df15db15a3b75bbde3927e7dbac5b19
+    mergeA: 
+    mergeB: 
+    authorName: Elia Grifo
+    authorEmail: elia.grifo@stud.hslu.ch
+    commitEmail: elia.grifo@stud.hslu.ch
+    commitName: Elia Grifo
+    summary: EliaScene
+    description: EliaScene
+    timeString: 2018-12-13T20:24:18.000+01:00
+    commitTimeString: 2018-12-13T20:24:18.000+01:00
+    changes:
+    - path: Assets/Scenes/EliaScene.unity
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Scenes/EliaScene.unity
+      projectPath: Assets/Scenes/EliaScene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 67ab0567e905da15ba6f346770294a0d75004ce8
+    mergeA: 
+    mergeB: 
+    authorName: Olivia Kaufmann
+    authorEmail: olivia.kaufmann@stud.hslu.ch
+    commitEmail: olivia.kaufmann@stud.hslu.ch
+    commitName: Olivia Kaufmann
+    summary: more prefabs added
+    description: more prefabs added
+    timeString: 2018-12-13T15:50:06.000+01:00
+    commitTimeString: 2018-12-13T15:50:06.000+01:00
+    changes:
+    - path: Assets/Player/Player 1.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Player/Player
+        1.prefab
+      projectPath: Assets/Player/Player 1.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Player/Player 1.prefab.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Player/Player
+        1.prefab.meta
+      projectPath: Assets/Player/Player 1.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scenes/OliviaScene.unity
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Scenes/OliviaScene.unity
+      projectPath: Assets/Scenes/OliviaScene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/UI/inGameUI/HUDCanvas.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/UI/inGameUI/HUDCanvas.prefab
+      projectPath: Assets/UI/inGameUI/HUDCanvas.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/UI/inGameUI/HUDCanvas.prefab.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/UI/inGameUI/HUDCanvas.prefab.meta
+      projectPath: Assets/UI/inGameUI/HUDCanvas.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/Level 1.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/Level
+        1.prefab
+      projectPath: Assets/plattform/Level 1.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/Level 1.prefab.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/Level
+        1.prefab.meta
+      projectPath: Assets/plattform/Level 1.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: e5b1b57bcd033c47ed11bc090dea7bf01c6dec14
+    mergeA: 
+    mergeB: 
+    authorName: Olivia Kaufmann
+    authorEmail: olivia.kaufmann@stud.hslu.ch
+    commitEmail: olivia.kaufmann@stud.hslu.ch
+    commitName: Olivia Kaufmann
+    summary: Attack/Health as well as an in game UI added
+    description: Attack/Health as well as an in game UI added
+    timeString: 2018-12-13T15:46:25.000+01:00
+    commitTimeString: 2018-12-13T15:46:25.000+01:00
+    changes:
+    - path: Assets/Player/Bullets/greenlazer.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Player/Bullets/greenlazer.prefab
+      projectPath: Assets/Player/Bullets/greenlazer.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Player/Player.cs
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Player/Player.cs
+      projectPath: Assets/Player/Player.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scenes/OliviaScene.unity
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Scenes/OliviaScene.unity
+      projectPath: Assets/Scenes/OliviaScene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/UI/inGameUI/REssources/Healthbar.png
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/UI/inGameUI/REssources/Healthbar.png
+      projectPath: Assets/UI/inGameUI/REssources/Healthbar.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/UI/inGameUI/REssources/Healthbar.png.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/UI/inGameUI/REssources/Healthbar.png.meta
+      projectPath: Assets/UI/inGameUI/REssources/Healthbar.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/UI/inGameUI/Scripts.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/UI/inGameUI/Scripts.meta
+      projectPath: Assets/UI/inGameUI/Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/UI/inGameUI/Scripts/UIHealth.cs
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/UI/inGameUI/Scripts/UIHealth.cs
+      projectPath: Assets/UI/inGameUI/Scripts/UIHealth.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/UI/inGameUI/Scripts/UIHealth.cs.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/UI/inGameUI/Scripts/UIHealth.cs.meta
+      projectPath: Assets/UI/inGameUI/Scripts/UIHealth.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/UI/inGameUI/Scripts/UIKeys.cs
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/UI/inGameUI/Scripts/UIKeys.cs
+      projectPath: Assets/UI/inGameUI/Scripts/UIKeys.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/UI/inGameUI/Scripts/UIKeys.cs.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/UI/inGameUI/Scripts/UIKeys.cs.meta
+      projectPath: Assets/UI/inGameUI/Scripts/UIKeys.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/UI/inGameUI/Scripts/UIPoints.cs
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/UI/inGameUI/Scripts/UIPoints.cs
+      projectPath: Assets/UI/inGameUI/Scripts/UIPoints.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/UI/inGameUI/Scripts/UIPoints.cs.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/UI/inGameUI/Scripts/UIPoints.cs.meta
+      projectPath: Assets/UI/inGameUI/Scripts/UIPoints.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/UI/inGameUI/Scripts/UITimer.cs
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/UI/inGameUI/Scripts/UITimer.cs
+      projectPath: Assets/UI/inGameUI/Scripts/UITimer.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/UI/inGameUI/Scripts/UITimer.cs.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/UI/inGameUI/Scripts/UITimer.cs.meta
+      projectPath: Assets/UI/inGameUI/Scripts/UITimer.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/EnemyBullet.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/EnemyBullet.prefab
+      projectPath: Assets/plattform/TowerEnemy/EnemyBullet.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/Grunt/GruntBehaviour.cs
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/Grunt/GruntBehaviour.cs
+      projectPath: Assets/plattform/TowerEnemy/Grunt/GruntBehaviour.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/TEnemyGun.cs
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/TEnemyGun.cs
+      projectPath: Assets/plattform/TowerEnemy/TEnemyGun.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings/TagManager.asset
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/ProjectSettings/TagManager.asset
+      projectPath: ProjectSettings/TagManager.asset
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: a27a0cfa212a0b50282e78459d69a19306c5cca5
+    mergeA: 
+    mergeB: 
+    authorName: Olivia Kaufmann
+    authorEmail: olivia.kaufmann@stud.hslu.ch
+    commitEmail: olivia.kaufmann@stud.hslu.ch
+    commitName: Olivia Kaufmann
+    summary: Playershoot but still no damage
+    description: Playershoot but still no damage
+    timeString: 2018-12-10T22:01:29.000+01:00
+    commitTimeString: 2018-12-10T22:01:29.000+01:00
+    changes:
+    - path: Assets/Mummy.png
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Mummy.png
+      projectPath: Assets/Mummy.png
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets/Player.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Player.meta
+      projectPath: Assets/Player.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Player/Bullets.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Player/Bullets.meta
+      projectPath: Assets/Player/Bullets.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Player/Bullets/LazerController.cs
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Player/Bullets/LazerController.cs
+      projectPath: Assets/Player/Bullets/LazerController.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Player/Bullets/LazerController.cs.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Player/Bullets/LazerController.cs.meta
+      projectPath: Assets/Player/Bullets/LazerController.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Player/Bullets/greenlazer.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Player/Bullets/greenlazer.prefab
+      projectPath: Assets/Player/Bullets/greenlazer.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Player/Bullets/greenlazer.prefab.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Player/Bullets/greenlazer.prefab.meta
+      projectPath: Assets/Player/Bullets/greenlazer.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Player/Bullets/redlazer.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Player/Bullets/redlazer.prefab
+      projectPath: Assets/Player/Bullets/redlazer.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Player/Bullets/redlazer.prefab.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Player/Bullets/redlazer.prefab.meta
+      projectPath: Assets/Player/Bullets/redlazer.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Player/InputManager.cs
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Player/InputManager.cs
+      projectPath: Assets/Player/InputManager.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Player/InputManager.cs.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Player/InputManager.cs.meta
+      projectPath: Assets/Player/InputManager.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Player/Player.cs
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Player/Player.cs
+      projectPath: Assets/Player/Player.cs
+      originalPath: Assets/Player.cs
+      status: 6
+      staged: 0
+    - path: Assets/Player/Player.cs.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Player/Player.cs.meta
+      projectPath: Assets/Player/Player.cs.meta
+      originalPath: Assets/Player.cs.meta
+      status: 6
+      staged: 0
+    - path: Assets/Player/Player.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Player/Player.prefab
+      projectPath: Assets/Player/Player.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Player/Player.prefab.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Player/Player.prefab.meta
+      projectPath: Assets/Player/Player.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Player/PlayerAttack.cs
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Player/PlayerAttack.cs
+      projectPath: Assets/Player/PlayerAttack.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Player/PlayerAttack.cs.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Player/PlayerAttack.cs.meta
+      projectPath: Assets/Player/PlayerAttack.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Player/PlayerHealth.cs
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Player/PlayerHealth.cs
+      projectPath: Assets/Player/PlayerHealth.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Player/PlayerHealth.cs.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Player/PlayerHealth.cs.meta
+      projectPath: Assets/Player/PlayerHealth.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Resources/Level.controller
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Resources/Level.controller
+      projectPath: Assets/Resources/Level.controller
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Resources/Level.controller.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Resources/Level.controller.meta
+      projectPath: Assets/Resources/Level.controller.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Resources/greenlazer.png
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Resources/greenlazer.png
+      projectPath: Assets/Resources/greenlazer.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Resources/greenlazer.png.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Resources/greenlazer.png.meta
+      projectPath: Assets/Resources/greenlazer.png.meta
+      originalPath: Assets/Mummy.png.meta
+      status: 6
+      staged: 0
+    - path: Assets/Resources/redlazer.png
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Resources/redlazer.png
+      projectPath: Assets/Resources/redlazer.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Resources/redlazer.png.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Resources/redlazer.png.meta
+      projectPath: Assets/Resources/redlazer.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Resources/warior 1.png
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Resources/warior
+        1.png
+      projectPath: Assets/Resources/warior 1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Resources/warior 1.png.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Resources/warior
+        1.png.meta
+      projectPath: Assets/Resources/warior 1.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scenes/OliviaScene.unity
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Scenes/OliviaScene.unity
+      projectPath: Assets/Scenes/OliviaScene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/UI/inGameUI/REssources.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/UI/inGameUI/REssources.meta
+      projectPath: Assets/UI/inGameUI/REssources.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/UI/inGameUI/REssources/HealthHeart.png
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/UI/inGameUI/REssources/HealthHeart.png
+      projectPath: Assets/UI/inGameUI/REssources/HealthHeart.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/UI/inGameUI/REssources/HealthHeart.png.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/UI/inGameUI/REssources/HealthHeart.png.meta
+      projectPath: Assets/UI/inGameUI/REssources/HealthHeart.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/EnemyBullet.cs
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/EnemyBullet.cs
+      projectPath: Assets/plattform/TowerEnemy/EnemyBullet.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/Grunt/GruntBehaviour.cs
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/Grunt/GruntBehaviour.cs
+      projectPath: Assets/plattform/TowerEnemy/Grunt/GruntBehaviour.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/TEnemyGun.cs
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/TEnemyGun.cs
+      projectPath: Assets/plattform/TowerEnemy/TEnemyGun.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings/DynamicsManager.asset
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/ProjectSettings/DynamicsManager.asset
+      projectPath: ProjectSettings/DynamicsManager.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings/TagManager.asset
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/ProjectSettings/TagManager.asset
+      projectPath: ProjectSettings/TagManager.asset
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: ddd17ff3f958d1afa167e9dcbc4cfa8ef2417557
+    mergeA: 
+    mergeB: 
+    authorName: Olivia Kaufmann
+    authorEmail: olivia.kaufmann@stud.hslu.ch
+    commitEmail: olivia.kaufmann@stud.hslu.ch
+    commitName: Olivia Kaufmann
+    summary: Start UI
+    description: Start UI
+    timeString: 2018-12-08T16:25:40.000+01:00
+    commitTimeString: 2018-12-08T16:25:40.000+01:00
+    changes:
+    - path: Assets/Scenes/EliaScene.unity
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Scenes/EliaScene.unity
+      projectPath: Assets/Scenes/EliaScene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scenes/OliviaScene.unity
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Scenes/OliviaScene.unity
+      projectPath: Assets/Scenes/OliviaScene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scenes/OliviaScene.unity.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Scenes/OliviaScene.unity.meta
+      projectPath: Assets/Scenes/OliviaScene.unity.meta
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scenes/OliviaSceneold.unity
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Scenes/OliviaSceneold.unity
+      projectPath: Assets/Scenes/OliviaSceneold.unity
+      originalPath: Assets/OliviaScene.unity
+      status: 6
+      staged: 0
+    - path: Assets/Scenes/OliviaSceneold.unity.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Scenes/OliviaSceneold.unity.meta
+      projectPath: Assets/Scenes/OliviaSceneold.unity.meta
+      originalPath: Assets/OliviaScene.unity.meta
+      status: 6
+      staged: 0
+    - path: Assets/Scenes/StartUI.unity
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Scenes/StartUI.unity
+      projectPath: Assets/Scenes/StartUI.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scenes/StartUI.unity.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Scenes/StartUI.unity.meta
+      projectPath: Assets/Scenes/StartUI.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/UI.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/UI.meta
+      projectPath: Assets/UI.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/UI/StartUI.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/UI/StartUI.meta
+      projectPath: Assets/UI/StartUI.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/UI/StartUI/REssources.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/UI/StartUI/REssources.meta
+      projectPath: Assets/UI/StartUI/REssources.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/UI/StartUI/REssources/egyptBackground.jpg
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/UI/StartUI/REssources/egyptBackground.jpg
+      projectPath: Assets/UI/StartUI/REssources/egyptBackground.jpg
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/UI/StartUI/REssources/egyptBackground.jpg.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/UI/StartUI/REssources/egyptBackground.jpg.meta
+      projectPath: Assets/UI/StartUI/REssources/egyptBackground.jpg.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/UI/StartUI/ScriptsUI.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/UI/StartUI/ScriptsUI.meta
+      projectPath: Assets/UI/StartUI/ScriptsUI.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/UI/StartUI/ScriptsUI/OnClickLoadScene.cs
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/UI/StartUI/ScriptsUI/OnClickLoadScene.cs
+      projectPath: Assets/UI/StartUI/ScriptsUI/OnClickLoadScene.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/UI/StartUI/ScriptsUI/OnClickLoadScene.cs.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/UI/StartUI/ScriptsUI/OnClickLoadScene.cs.meta
+      projectPath: Assets/UI/StartUI/ScriptsUI/OnClickLoadScene.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/UI/inGameUI.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/UI/inGameUI.meta
+      projectPath: Assets/UI/inGameUI.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings/EditorBuildSettings.asset
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/ProjectSettings/EditorBuildSettings.asset
+      projectPath: ProjectSettings/EditorBuildSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 5abab3bf41855a6a18e959edb52ad66ea637b73c
+    mergeA: 
+    mergeB: 
+    authorName: Olivia Kaufmann
+    authorEmail: olivia.kaufmann@stud.hslu.ch
+    commitEmail: olivia.kaufmann@stud.hslu.ch
+    commitName: Olivia Kaufmann
+    summary: two new scenes to use
+    description: two new scenes to use
+    timeString: 2018-12-07T17:46:05.000+01:00
+    commitTimeString: 2018-12-07T17:46:05.000+01:00
+    changes:
+    - path: Assets/CameraFollow.cs
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/CameraFollow.cs
+      projectPath: Assets/CameraFollow.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/CameraFollow.cs.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/CameraFollow.cs.meta
+      projectPath: Assets/CameraFollow.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/OliviaScene.unity
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/OliviaScene.unity
+      projectPath: Assets/OliviaScene.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/OliviaScene.unity.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/OliviaScene.unity.meta
+      projectPath: Assets/OliviaScene.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Player.cs
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Player.cs
+      projectPath: Assets/Player.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scenes/.plattformscene.unity.swp
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Scenes/.plattformscene.unity.swp
+      projectPath: Assets/Scenes/.plattformscene.unity.swp
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scenes/EliaScene.unity
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Scenes/EliaScene.unity
+      projectPath: Assets/Scenes/EliaScene.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scenes/EliaScene.unity.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Scenes/EliaScene.unity.meta
+      projectPath: Assets/Scenes/EliaScene.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scenes/OliviaScene.unity
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Scenes/OliviaScene.unity
+      projectPath: Assets/Scenes/OliviaScene.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scenes/OliviaScene.unity.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Scenes/OliviaScene.unity.meta
+      projectPath: Assets/Scenes/OliviaScene.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scenes/plattformscene.unity
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Scenes/plattformscene.unity
+      projectPath: Assets/Scenes/plattformscene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/Level.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/Level.prefab
+      projectPath: Assets/plattform/Level.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/LineofPyramidsS.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/LineofPyramidsS.prefab
+      projectPath: Assets/plattform/LineofPyramidsS.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/LineofPyramidsbouncy.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/LineofPyramidsbouncy.prefab
+      projectPath: Assets/plattform/LineofPyramidsbouncy.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/PyramidBbouncy.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/PyramidBbouncy.prefab
+      projectPath: Assets/plattform/PyramidBbouncy.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/PyramidBig 1.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/PyramidBig
+        1.prefab
+      projectPath: Assets/plattform/PyramidBig 1.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/PyramidSmall (2).prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/PyramidSmall
+        (2).prefab
+      projectPath: Assets/plattform/PyramidSmall (2).prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/SAnd3.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/SAnd3.prefab
+      projectPath: Assets/plattform/SAnd3.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/TowerEnemy.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/TowerEnemy.prefab
+      projectPath: Assets/plattform/TowerEnemy/TowerEnemy.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/bear_0.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/bear_0.prefab
+      projectPath: Assets/plattform/bear_0.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/bear_0.prefab.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/bear_0.prefab.meta
+      projectPath: Assets/plattform/bear_0.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/bouncy1.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/bouncy1.prefab
+      projectPath: Assets/plattform/bouncy1.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/bouncy3.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/bouncy3.prefab
+      projectPath: Assets/plattform/bouncy3.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/sand.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/sand.prefab
+      projectPath: Assets/plattform/sand.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/slowPlattform.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/slowPlattform.prefab
+      projectPath: Assets/plattform/slowPlattform.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/slowPlattform3.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/slowPlattform3.prefab
+      projectPath: Assets/plattform/slowPlattform3.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 98c30bf93102fd2f2ecca4f776ae77148121089b
+    mergeA: a82f064093aeaf0c2e4b6ebc095b4d61943e5fbe
+    mergeB: 5c4c6f534c386262f160246d4a82c72c544ac74c
+    authorName: Elia Grifo
+    authorEmail: elia.grifo@stud.hslu.ch
+    commitEmail: elia.grifo@stud.hslu.ch
+    commitName: Elia Grifo
+    summary: Merge branch 'master' of https://github.com/okaufman/GameDev-Project
+    description: Merge branch 'master' of https://github.com/okaufman/GameDev-Project
+    timeString: 2018-12-06T23:02:12.000+01:00
+    commitTimeString: 2018-12-06T23:02:12.000+01:00
+    changes: []
   - commitID: a82f064093aeaf0c2e4b6ebc095b4d61943e5fbe
     mergeA: 
     mergeB: 
@@ -378,6 +1184,956 @@ MonoBehaviour:
     - path: ProjectSettings/TagManager.asset
       fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/ProjectSettings/TagManager.asset
       projectPath: ProjectSettings/TagManager.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings/UnityConnectSettings.asset
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/ProjectSettings/UnityConnectSettings.asset
+      projectPath: ProjectSettings/UnityConnectSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 5c4c6f534c386262f160246d4a82c72c544ac74c
+    mergeA: 
+    mergeB: 
+    authorName: Olivia Kaufmann
+    authorEmail: olivia.kaufmann@stud.hslu.ch
+    commitEmail: olivia.kaufmann@stud.hslu.ch
+    commitName: Olivia Kaufmann
+    summary: grunts shoot now append
+    description: grunts shoot now append
+    timeString: 2018-12-02T10:03:16.000+01:00
+    commitTimeString: 2018-12-02T10:03:16.000+01:00
+    changes:
+    - path: Assets/Scenes/plattformscene.unity
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Scenes/plattformscene.unity
+      projectPath: Assets/Scenes/plattformscene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/EnemyBullet.cs
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/EnemyBullet.cs
+      projectPath: Assets/plattform/TowerEnemy/EnemyBullet.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/EnemyBullet.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/EnemyBullet.prefab
+      projectPath: Assets/plattform/TowerEnemy/EnemyBullet.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/Grunt/AlienEnemy.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/Grunt/AlienEnemy.prefab
+      projectPath: Assets/plattform/TowerEnemy/Grunt/AlienEnemy.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/Grunt/AlienEnemy.prefab.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/Grunt/AlienEnemy.prefab.meta
+      projectPath: Assets/plattform/TowerEnemy/Grunt/AlienEnemy.prefab.meta
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/Grunt/GruntBehaviour.cs
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/Grunt/GruntBehaviour.cs
+      projectPath: Assets/plattform/TowerEnemy/Grunt/GruntBehaviour.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/Grunt/detectCollision.cs
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/Grunt/detectCollision.cs
+      projectPath: Assets/plattform/TowerEnemy/Grunt/detectCollision.cs
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/Grunt/detectCollision.cs.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/Grunt/detectCollision.cs.meta
+      projectPath: Assets/plattform/TowerEnemy/Grunt/detectCollision.cs.meta
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: KobraKool.sln
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/KobraKool.sln
+      projectPath: KobraKool.sln
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings/DynamicsManager.asset
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/ProjectSettings/DynamicsManager.asset
+      projectPath: ProjectSettings/DynamicsManager.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings/EditorSettings.asset
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/ProjectSettings/EditorSettings.asset
+      projectPath: ProjectSettings/EditorSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings/TagManager.asset
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/ProjectSettings/TagManager.asset
+      projectPath: ProjectSettings/TagManager.asset
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 367cd8da8e65a0c78d1453f7b8e4de11910cc521
+    mergeA: 
+    mergeB: 
+    authorName: Olivia Kaufmann
+    authorEmail: olivia.kaufmann@stud.hslu.ch
+    commitEmail: olivia.kaufmann@stud.hslu.ch
+    commitName: Olivia Kaufmann
+    summary: added grunt
+    description: added grunt
+    timeString: 2018-12-01T20:45:18.000+01:00
+    commitTimeString: 2018-12-01T20:45:18.000+01:00
+    changes:
+    - path: Assets/plattform/Level.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/Level.prefab
+      projectPath: Assets/plattform/Level.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/Level.prefab.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/Level.prefab.meta
+      projectPath: Assets/plattform/Level.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/EnemyBullet.cs
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/EnemyBullet.cs
+      projectPath: Assets/plattform/TowerEnemy/EnemyBullet.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/EnemyBullet.cs.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/EnemyBullet.cs.meta
+      projectPath: Assets/plattform/TowerEnemy/EnemyBullet.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/EnemyBullet.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/EnemyBullet.prefab
+      projectPath: Assets/plattform/TowerEnemy/EnemyBullet.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/EnemyBullet.prefab.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/EnemyBullet.prefab.meta
+      projectPath: Assets/plattform/TowerEnemy/EnemyBullet.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/Grunt.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/Grunt.meta
+      projectPath: Assets/plattform/TowerEnemy/Grunt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/Grunt/AlienEnemy.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/Grunt/AlienEnemy.prefab
+      projectPath: Assets/plattform/TowerEnemy/Grunt/AlienEnemy.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/Grunt/AlienEnemy.prefab.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/Grunt/AlienEnemy.prefab.meta
+      projectPath: Assets/plattform/TowerEnemy/Grunt/AlienEnemy.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/Grunt/GruntBehaviour.cs
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/Grunt/GruntBehaviour.cs
+      projectPath: Assets/plattform/TowerEnemy/Grunt/GruntBehaviour.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/Grunt/GruntBehaviour.cs.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/Grunt/GruntBehaviour.cs.meta
+      projectPath: Assets/plattform/TowerEnemy/Grunt/GruntBehaviour.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/Grunt/detectCollision.cs
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/Grunt/detectCollision.cs
+      projectPath: Assets/plattform/TowerEnemy/Grunt/detectCollision.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/Grunt/detectCollision.cs.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/Grunt/detectCollision.cs.meta
+      projectPath: Assets/plattform/TowerEnemy/Grunt/detectCollision.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/TEnemyGun.cs
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/TEnemyGun.cs
+      projectPath: Assets/plattform/TowerEnemy/TEnemyGun.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/TEnemyGun.cs.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/TEnemyGun.cs.meta
+      projectPath: Assets/plattform/TowerEnemy/TEnemyGun.cs.meta
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/smallBulletLeft.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/smallBulletLeft.prefab
+      projectPath: Assets/plattform/TowerEnemy/smallBulletLeft.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/smallBulletLeft.prefab.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/smallBulletLeft.prefab.meta
+      projectPath: Assets/plattform/TowerEnemy/smallBulletLeft.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/smallBulletRight.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/smallBulletRight.prefab
+      projectPath: Assets/plattform/TowerEnemy/smallBulletRight.prefab
+      originalPath: Assets/plattform/TowerEnemy/smallBullet.prefab
+      status: 6
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/smallBulletRight.prefab.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/smallBulletRight.prefab.meta
+      projectPath: Assets/plattform/TowerEnemy/smallBulletRight.prefab.meta
+      originalPath: Assets/plattform/TowerEnemy/smallBullet.prefab.meta
+      status: 6
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/sprite/Alien.png
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/sprite/Alien.png
+      projectPath: Assets/plattform/TowerEnemy/sprite/Alien.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/sprite/Alien.png.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/sprite/Alien.png.meta
+      projectPath: Assets/plattform/TowerEnemy/sprite/Alien.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/sprite/EnemyBullet.png
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/sprite/EnemyBullet.png
+      projectPath: Assets/plattform/TowerEnemy/sprite/EnemyBullet.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/sprite/EnemyBullet.png.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/sprite/EnemyBullet.png.meta
+      projectPath: Assets/plattform/TowerEnemy/sprite/EnemyBullet.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: fcf53239008a0e305b548ee9dc9dd9144873e67f
+    mergeA: 
+    mergeB: 
+    authorName: Olivia Kaufmann
+    authorEmail: olivia.kaufmann@stud.hslu.ch
+    commitEmail: olivia.kaufmann@stud.hslu.ch
+    commitName: Olivia Kaufmann
+    summary: first Level append
+    description: first Level append
+    timeString: 2018-11-24T14:06:16.000+01:00
+    commitTimeString: 2018-11-24T14:06:16.000+01:00
+    changes:
+    - path: Assets/Scenes/plattformscene.unity
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Scenes/plattformscene.unity
+      projectPath: Assets/Scenes/plattformscene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 703407162e3f26410a8faa7589d6f12a7d289075
+    mergeA: 
+    mergeB: 
+    authorName: Olivia Kaufmann
+    authorEmail: olivia.kaufmann@stud.hslu.ch
+    commitEmail: olivia.kaufmann@stud.hslu.ch
+    commitName: Olivia Kaufmann
+    summary: first Level
+    description: first Level
+    timeString: 2018-11-24T14:04:44.000+01:00
+    commitTimeString: 2018-11-24T14:04:44.000+01:00
+    changes:
+    - path: Assets/plattform/PyramidBbouncy.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/PyramidBbouncy.prefab
+      projectPath: Assets/plattform/PyramidBbouncy.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/PyramidBbouncy.prefab.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/PyramidBbouncy.prefab.meta
+      projectPath: Assets/plattform/PyramidBbouncy.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/TEnemyGun.cs
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/TEnemyGun.cs
+      projectPath: Assets/plattform/TowerEnemy/TEnemyGun.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/TEnemyGun.cs.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/TEnemyGun.cs.meta
+      projectPath: Assets/plattform/TowerEnemy/TEnemyGun.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/TowerEnemy.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/TowerEnemy.prefab
+      projectPath: Assets/plattform/TowerEnemy/TowerEnemy.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/TowerEnemy.prefab.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/TowerEnemy.prefab.meta
+      projectPath: Assets/plattform/TowerEnemy/TowerEnemy.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: "Material.mat\tAssets/plattform/TowerEnemy/TowerMAterial.mat"
+      fullPath: "/Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Material.mat\tAssets/plattform/TowerEnemy/TowerMAterial.mat"
+      projectPath: "Material.mat\tAssets/plattform/TowerEnemy/TowerMAterial.mat"
+      originalPath: Assets/plattform/TowerEnemy/New
+      status: 6
+      staged: 0
+    - path: "Material.mat.meta\tAssets/plattform/TowerEnemy/TowerMAterial.mat.meta"
+      fullPath: "/Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Material.mat.meta\tAssets/plattform/TowerEnemy/TowerMAterial.mat.meta"
+      projectPath: "Material.mat.meta\tAssets/plattform/TowerEnemy/TowerMAterial.mat.meta"
+      originalPath: Assets/plattform/TowerEnemy/New
+      status: 6
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/smallBullet.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/smallBullet.prefab
+      projectPath: Assets/plattform/TowerEnemy/smallBullet.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/smallBullet.prefab.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/smallBullet.prefab.meta
+      projectPath: Assets/plattform/TowerEnemy/smallBullet.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/sprite.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/sprite.meta
+      projectPath: Assets/plattform/TowerEnemy/sprite.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/sprite/smallbullet.png
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/sprite/smallbullet.png
+      projectPath: Assets/plattform/TowerEnemy/sprite/smallbullet.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/sprite/smallbullet.png.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/sprite/smallbullet.png.meta
+      projectPath: Assets/plattform/TowerEnemy/sprite/smallbullet.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: da4f30ddb110e031b19bf34c19b75dbb45332f91
+    mergeA: 
+    mergeB: 
+    authorName: Olivia Kaufmann
+    authorEmail: olivia.kaufmann@stud.hslu.ch
+    commitEmail: olivia.kaufmann@stud.hslu.ch
+    commitName: Olivia Kaufmann
+    summary: '-'
+    description: '-'
+    timeString: 2018-11-24T10:52:57.000+01:00
+    commitTimeString: 2018-11-24T10:52:57.000+01:00
+    changes:
+    - path: Assembly-CSharp-Editor-firstpass.csproj
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assembly-CSharp-Editor-firstpass.csproj
+      projectPath: Assembly-CSharp-Editor-firstpass.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Scenes/plattformscene.unity
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Scenes/plattformscene.unity
+      projectPath: Assets/Scenes/plattformscene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/SAnd3.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/SAnd3.prefab
+      projectPath: Assets/plattform/SAnd3.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/TowerEnemy.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy.meta
+      projectPath: Assets/plattform/TowerEnemy.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/New Material.mat
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/New
+        Material.mat
+      projectPath: Assets/plattform/TowerEnemy/New Material.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/TowerEnemy/New Material.mat.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/TowerEnemy/New
+        Material.mat.meta
+      projectPath: Assets/plattform/TowerEnemy/New Material.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/bouncy1.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/bouncy1.prefab
+      projectPath: Assets/plattform/bouncy1.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/bouncy3.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/bouncy3.prefab
+      projectPath: Assets/plattform/bouncy3.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/sand.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/sand.prefab
+      projectPath: Assets/plattform/sand.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/slowPlattform.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/slowPlattform.prefab
+      projectPath: Assets/plattform/slowPlattform.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/slowPlattform3.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/slowPlattform3.prefab
+      projectPath: Assets/plattform/slowPlattform3.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/CurrentLayout.dwlt
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/CurrentLayout.dwlt
+      projectPath: Library/CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/EditorInstance.json
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/EditorInstance.json
+      projectPath: Library/EditorInstance.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/InspectorExpandedItems.asset
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/InspectorExpandedItems.asset
+      projectPath: Library/InspectorExpandedItems.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/assetDatabase3
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/expandedItems
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/expandedItems
+      projectPath: Library/expandedItems
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/33/33557022d13e9274585d5f422fc5dc3e.info
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/33/33557022d13e9274585d5f422fc5dc3e.info
+      projectPath: Library/metadata/33/33557022d13e9274585d5f422fc5dc3e.info
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/61/61fa01d0a02f6b5489f95ac1a607e966.info
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/61/61fa01d0a02f6b5489f95ac1a607e966.info
+      projectPath: Library/metadata/61/61fa01d0a02f6b5489f95ac1a607e966.info
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/d1/d1a6cde139a14594599e0a4948d08e51.info
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/d1/d1a6cde139a14594599e0a4948d08e51.info
+      projectPath: Library/metadata/d1/d1a6cde139a14594599e0a4948d08e51.info
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/dc/dc493660909fd2242acfee5f5fbd7b12.info
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/dc/dc493660909fd2242acfee5f5fbd7b12.info
+      projectPath: Library/metadata/dc/dc493660909fd2242acfee5f5fbd7b12.info
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/df/df463980ab42d0e4ab12490e10525822.info
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/df/df463980ab42d0e4ab12490e10525822.info
+      projectPath: Library/metadata/df/df463980ab42d0e4ab12490e10525822.info
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/e9/e99a370585499a24185934a5d4973ef4.info
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/e9/e99a370585499a24185934a5d4973ef4.info
+      projectPath: Library/metadata/e9/e99a370585499a24185934a5d4973ef4.info
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: a22f778f467da6995fe54b1e5280eb1a256d5839
+    mergeA: 
+    mergeB: 
+    authorName: Olivia Kaufmann
+    authorEmail: olivia.kaufmann@stud.hslu.ch
+    commitEmail: olivia.kaufmann@stud.hslu.ch
+    commitName: Olivia Kaufmann
+    summary: Level outline
+    description: Level outline
+    timeString: 2018-11-23T17:59:25.000+01:00
+    commitTimeString: 2018-11-23T17:59:25.000+01:00
+    changes:
+    - path: Assembly-CSharp-Editor-firstpass.csproj
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assembly-CSharp-Editor-firstpass.csproj
+      projectPath: Assembly-CSharp-Editor-firstpass.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/Mummy.png
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Mummy.png
+      projectPath: Assets/Mummy.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Mummy.png.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Mummy.png.meta
+      projectPath: Assets/Mummy.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/Scenes/plattformscene.unity
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/Scenes/plattformscene.unity
+      projectPath: Assets/Scenes/plattformscene.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets/plattform/LineofPyramidsS.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/LineofPyramidsS.prefab
+      projectPath: Assets/plattform/LineofPyramidsS.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/LineofPyramidsS.prefab.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/LineofPyramidsS.prefab.meta
+      projectPath: Assets/plattform/LineofPyramidsS.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/LineofPyramidsbouncy.prefab
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/LineofPyramidsbouncy.prefab
+      projectPath: Assets/plattform/LineofPyramidsbouncy.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/LineofPyramidsbouncy.prefab.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/LineofPyramidsbouncy.prefab.meta
+      projectPath: Assets/plattform/LineofPyramidsbouncy.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/MAterials/doorMaterial.mat
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/MAterials/doorMaterial.mat
+      projectPath: Assets/plattform/MAterials/doorMaterial.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/plattform/MAterials/doorMaterial.mat.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/plattform/MAterials/doorMaterial.mat.meta
+      projectPath: Assets/plattform/MAterials/doorMaterial.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/warior_1.controller
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/warior_1.controller
+      projectPath: Assets/warior_1.controller
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/warior_1.controller.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/warior_1.controller.meta
+      projectPath: Assets/warior_1.controller.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/warrior.anim
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/warrior.anim
+      projectPath: Assets/warrior.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets/warrior.anim.meta
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Assets/warrior.anim.meta
+      projectPath: Assets/warrior.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library/EditorInstance.json
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/EditorInstance.json
+      projectPath: Library/EditorInstance.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/InspectorExpandedItems.asset
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/InspectorExpandedItems.asset
+      projectPath: Library/InspectorExpandedItems.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll.mdb
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll.mdb
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/ScriptAssemblies/BuiltinAssemblies.stamp
+      projectPath: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll.mdb
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll.mdb
+      projectPath: Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll.mdb
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll.mdb
+      projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/Unity.TextMeshPro.dll.mdb
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/ScriptAssemblies/Unity.TextMeshPro.dll.mdb
+      projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/ScriptAssemblies/UnityEditor.StandardEvents.dll.mdb
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll.mdb
+      projectPath: Library/ScriptAssemblies/UnityEditor.StandardEvents.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/assetDatabase3
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/07/072450ffed31fe545a60f71f33f53916
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/07/072450ffed31fe545a60f71f33f53916
+      projectPath: Library/metadata/07/072450ffed31fe545a60f71f33f53916
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/0d/0d3bb855445e36e479c85976fc88383a
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/0d/0d3bb855445e36e479c85976fc88383a
+      projectPath: Library/metadata/0d/0d3bb855445e36e479c85976fc88383a
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/16/1638f3415e6a8594ba9323f0ba3c5acf
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/16/1638f3415e6a8594ba9323f0ba3c5acf
+      projectPath: Library/metadata/16/1638f3415e6a8594ba9323f0ba3c5acf
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/19/19ead9387dc9ef14fad0436a846268f7
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/19/19ead9387dc9ef14fad0436a846268f7
+      projectPath: Library/metadata/19/19ead9387dc9ef14fad0436a846268f7
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/20/204a570cd0814334ba2fd79718030cc0
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/20/204a570cd0814334ba2fd79718030cc0
+      projectPath: Library/metadata/20/204a570cd0814334ba2fd79718030cc0
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/26/2642008eb81683d4dbc7cd4ad6a2c485
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/26/2642008eb81683d4dbc7cd4ad6a2c485
+      projectPath: Library/metadata/26/2642008eb81683d4dbc7cd4ad6a2c485
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/26/2682a692a2be7e14e901a738c7806da0
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/26/2682a692a2be7e14e901a738c7806da0
+      projectPath: Library/metadata/26/2682a692a2be7e14e901a738c7806da0
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5
+      projectPath: Library/metadata/2f/2fe3476eabbbb6c448e6b55a2cc471f5
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/32/328cc881519068e4eb7db4bb907ad2d9
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/32/328cc881519068e4eb7db4bb907ad2d9
+      projectPath: Library/metadata/32/328cc881519068e4eb7db4bb907ad2d9
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/3b/3bb0254b9671413d9d08a855c5090237
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/3b/3bb0254b9671413d9d08a855c5090237
+      projectPath: Library/metadata/3b/3bb0254b9671413d9d08a855c5090237
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/3e/3e9a2175e0404f7ea30b2b694850bae0
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/3e/3e9a2175e0404f7ea30b2b694850bae0
+      projectPath: Library/metadata/3e/3e9a2175e0404f7ea30b2b694850bae0
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/46/46098a81a64a45c5b756320e10a22f13
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/46/46098a81a64a45c5b756320e10a22f13
+      projectPath: Library/metadata/46/46098a81a64a45c5b756320e10a22f13
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677
+      projectPath: Library/metadata/49/49f5766d0d4954f44b85d4bbd7131677
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/4a/4a813084baf34314aa7b09881c317646
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/4a/4a813084baf34314aa7b09881c317646
+      projectPath: Library/metadata/4a/4a813084baf34314aa7b09881c317646
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/4d/4d64205430999a04981dab6f259b6e44
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/4d/4d64205430999a04981dab6f259b6e44
+      projectPath: Library/metadata/4d/4d64205430999a04981dab6f259b6e44
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/5e/5e27b1dcd46fbfb459fd62aef1d20f07
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/5e/5e27b1dcd46fbfb459fd62aef1d20f07
+      projectPath: Library/metadata/5e/5e27b1dcd46fbfb459fd62aef1d20f07
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/64/6416c33b0bf58844fa4cc6d5182f23cb
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/64/6416c33b0bf58844fa4cc6d5182f23cb
+      projectPath: Library/metadata/64/6416c33b0bf58844fa4cc6d5182f23cb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/69/6981461fe431401459211818212a29cf
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/69/6981461fe431401459211818212a29cf
+      projectPath: Library/metadata/69/6981461fe431401459211818212a29cf
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/6a/6a871de884a07ba409d1a2ee83a52f65.info
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/6a/6a871de884a07ba409d1a2ee83a52f65.info
+      projectPath: Library/metadata/6a/6a871de884a07ba409d1a2ee83a52f65.info
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/6e/6e2d432c5ea14e75aa3a79f90f704442
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/6e/6e2d432c5ea14e75aa3a79f90f704442
+      projectPath: Library/metadata/6e/6e2d432c5ea14e75aa3a79f90f704442
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/6f/6fe576b47d8b47688ec5d02bccd15cf9
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/6f/6fe576b47d8b47688ec5d02bccd15cf9
+      projectPath: Library/metadata/6f/6fe576b47d8b47688ec5d02bccd15cf9
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/74/74101c7619674b24d82777e7458e0977
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/74/74101c7619674b24d82777e7458e0977
+      projectPath: Library/metadata/74/74101c7619674b24d82777e7458e0977
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/75/75799de484ac4f4cadc268d2cbea830a
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/75/75799de484ac4f4cadc268d2cbea830a
+      projectPath: Library/metadata/75/75799de484ac4f4cadc268d2cbea830a
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390
+      projectPath: Library/metadata/84/84ca94c19f25ae14d83aa41bb3654390
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/8e/8e7066e382b0fc749b25dbb1a3004dfe
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/8e/8e7066e382b0fc749b25dbb1a3004dfe
+      projectPath: Library/metadata/8e/8e7066e382b0fc749b25dbb1a3004dfe
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/90/9078b7128e594410d9b89e5b24cffd01
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/90/9078b7128e594410d9b89e5b24cffd01
+      projectPath: Library/metadata/90/9078b7128e594410d9b89e5b24cffd01
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/9b/9b3a918d590e4e1459441f9ead225410
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/9b/9b3a918d590e4e1459441f9ead225410
+      projectPath: Library/metadata/9b/9b3a918d590e4e1459441f9ead225410
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/aa/aa2083952c228ce409569f5d690c4dd9
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/aa/aa2083952c228ce409569f5d690c4dd9
+      projectPath: Library/metadata/aa/aa2083952c228ce409569f5d690c4dd9
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/ad/ad3539a1bf7ab2c41ba07a9f67559f6e
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/ad/ad3539a1bf7ab2c41ba07a9f67559f6e
+      projectPath: Library/metadata/ad/ad3539a1bf7ab2c41ba07a9f67559f6e
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/b0/b065703cfbf00f74bb12dd5fc273ec59
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/b0/b065703cfbf00f74bb12dd5fc273ec59
+      projectPath: Library/metadata/b0/b065703cfbf00f74bb12dd5fc273ec59
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/b2/b2b693dffac3a4433b3114fea0b7fd4e
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/b2/b2b693dffac3a4433b3114fea0b7fd4e
+      projectPath: Library/metadata/b2/b2b693dffac3a4433b3114fea0b7fd4e
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/b9/b95ab00277ee47c687d710a3bb623d0a
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/b9/b95ab00277ee47c687d710a3bb623d0a
+      projectPath: Library/metadata/b9/b95ab00277ee47c687d710a3bb623d0a
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/d0/d05b96cee66e14240838de167097537a
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/d0/d05b96cee66e14240838de167097537a
+      projectPath: Library/metadata/d0/d05b96cee66e14240838de167097537a
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/d9/d91035c548f23744c9bfb107348ed1c0
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/d9/d91035c548f23744c9bfb107348ed1c0
+      projectPath: Library/metadata/d9/d91035c548f23744c9bfb107348ed1c0
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/db/db2c1ccad7abc5945acd3342facc4e4c
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/db/db2c1ccad7abc5945acd3342facc4e4c
+      projectPath: Library/metadata/db/db2c1ccad7abc5945acd3342facc4e4c
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/e3/e33383ce3afd26c41a6994f0af6a6743
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/e3/e33383ce3afd26c41a6994f0af6a6743
+      projectPath: Library/metadata/e3/e33383ce3afd26c41a6994f0af6a6743
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e
+      projectPath: Library/metadata/f8/f81094832d834c64d93b198cb16b6a3e
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library/shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/Library/shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings/ProjectVersion.txt
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/ProjectSettings/ProjectVersion.txt
+      projectPath: ProjectSettings/ProjectVersion.txt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings/QualitySettings.asset
+      fullPath: /Users/eliagrifo/Desktop/Hochschule/5. Semester/GAMEDEV/GameDev-Project-master/ProjectSettings/QualitySettings.asset
+      projectPath: ProjectSettings/QualitySettings.asset
       originalPath: 
       status: 3
       staged: 0
