@@ -9,7 +9,7 @@ public class Player : MonoBehaviour {
    //[SerializeField]
     private InputManager inputManager;
     public event Action FireWeapon = delegate { };
-   // public int Health = 100;
+    public int health = 100;
 
     private bool isDead = false;
     private float speedForce = 15f;
@@ -73,11 +73,10 @@ public class Player : MonoBehaviour {
                     rb2d.AddForce(transform.right * speedForce);
             }
         }
-
-       
-        
-
-
+        UIHealth.health = health;
+        if(isDead) {
+            gameObject.SetActive(false);
+        }
     }
 
     private void animate() {
@@ -103,27 +102,20 @@ public class Player : MonoBehaviour {
         if (collision.gameObject.tag == "EnemyBullet")
         {
             takeDamage(10);
-            if (UIHealth.health <= 0)
+            if (health <= 0 && !isDead)
             {
-                SceneManager.LoadScene(0);
+                isDead = true;
+                UIHealth.IncrementDeadCount();
             }
         }
     }
 
-    public void SetSpeedForce(float force) {
-        speedForce = force;
-    }
-
-    public void SetMaxSpeed(float speed) {
-        maxSpeed = speed;
-    }
-
     public void takeDamage(int damage)
     {
-        UIHealth.health -= damage;
+        health -= damage;
     }
 
-     void OnAttack()
+     public void OnAttack()
     {
         FireWeapon();
     }

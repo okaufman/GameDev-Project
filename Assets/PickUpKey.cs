@@ -4,18 +4,19 @@ using UnityEngine;
 
 public class PickUpKey : MonoBehaviour {
 
-	// Use this for initialization
+    private AnimationCurve animationCurve;
+    private float upDownSpeed = 1f;
+
 	void Start () {
 		
 	}
 	
-	// Update is called once per frame
 	void Update () {
-		
-	}
+
+    }
 
     private void OnCollisionEnter(Collision collision) {
-        if (collision.gameObject.tag == "Player" || collision.gameObject.tag=="redPlayer") {
+        if (collision.gameObject.tag == "Player" || collision.gameObject.tag=="redPlayer" || collision.gameObject.tag == "bluePlayer") {
             Destroy(gameObject);
             UIKeys.KeysFound++;
         }

@@ -65,6 +65,12 @@ public class GruntBehaviour : MonoBehaviour {
 
             switchDirection();
         }
+
+        if (collision.gameObject.tag == "bluePlayer") {
+            if (Input.GetKey(KeyCode.Space)) {
+                takeDamage(100);
+            }
+        }
     }
 
     private void OnTriggerEnter(Collider other)
