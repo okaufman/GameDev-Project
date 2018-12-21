@@ -9,7 +9,7 @@ public class PlayerBlue : MonoBehaviour {
     private bool isDead = false;
     private float speedForce = 15f;
     private float maxSpeed = 20f;
-    private float jumpForce = 600f;
+    private float jumpForce = 800f;
     private bool grounded = true;
     public static int health = 100;
 
