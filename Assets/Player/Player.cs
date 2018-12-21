@@ -34,17 +34,18 @@ public class Player : MonoBehaviour {
 
         inputManager = FindObjectOfType<InputManager>();
         inputManager.PAttack += OnAttack;
-        animator = GetComponent<Animator>();
-        animator.enabled = false;
+        animator = GetComponent<Animator>();      
         rb2d = GetComponent<Rigidbody>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         sprites = Resources.LoadAll<Sprite>("bear");
+
     }
 
 	void Update () {
         if (!isDead) {
             if (Input.GetKeyDown(KeyCode.UpArrow) && grounded) {
                 rb2d.AddForce(new Vector2(0f, jumpForce));
+                animator.SetBool("isJumping", true);
                 grounded = false;
             }
             //save current rotation
@@ -62,10 +63,13 @@ public class Player : MonoBehaviour {
                 transform.eulerAngles = currRot;
             }
             if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow)) {
-                animate();
+                animator.SetFloat("speed", speedForce);
                 float x = Input.GetAxis("Horizontal");
                 rb2d.velocity = new Vector2(x * speedForce, rb2d.velocity.y);
-            }    
+            }
+            if (Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow)) {
+                animator.SetFloat("speed", 0);
+            }
         }
         UIHealth.health = health;
         if(isDead) {
@@ -73,25 +77,13 @@ public class Player : MonoBehaviour {
         }
     }
 
-    private void animate() {
-        deltaTime += Time.deltaTime;
-        while (deltaTime >= frameSeconds) {
-            deltaTime -= frameSeconds;
-            if (frame < 21) {
-                frame++;
-            } else {
-                frame = 10;
-            }
-        }
-        spriteRenderer.sprite = sprites[frame];
-    }
-
     private void OnCollisionEnter(Collision collision)
     {
         //be able to jump again, when you have hit the ground
         if (collision.gameObject.tag == "ground") {
-        grounded = true;
-    }
+            grounded = true;
+            animator.SetBool("isJumping", false);
+        }
         //take damage when hit by bullet
         if (collision.gameObject.tag == "EnemyBullet")
         {

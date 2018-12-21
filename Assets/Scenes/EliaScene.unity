@@ -1250,11 +1250,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4216256717571020, guid: e2b63dcbb33370141995b49513fbe630, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -92.85
+      value: -90.2
       objectReference: {fileID: 0}
     - target: {fileID: 4216256717571020, guid: e2b63dcbb33370141995b49513fbe630, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -24.67
+      value: -24.76
       objectReference: {fileID: 0}
     - target: {fileID: 4216256717571020, guid: e2b63dcbb33370141995b49513fbe630, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1283,6 +1283,11 @@ Prefab:
     - target: {fileID: 1784355108620448, guid: e2b63dcbb33370141995b49513fbe630, type: 2}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 95813093578053822, guid: e2b63dcbb33370141995b49513fbe630,
+        type: 2}
+      propertyPath: m_CullingMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2b63dcbb33370141995b49513fbe630, type: 2}
@@ -1616,11 +1621,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4518742028100198, guid: 299d0ef5e9b42254dbed9a60f9933255, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -90.4
+      value: -75.38
       objectReference: {fileID: 0}
     - target: {fileID: 4518742028100198, guid: 299d0ef5e9b42254dbed9a60f9933255, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -189.2
+      value: -188.86
       objectReference: {fileID: 0}
     - target: {fileID: 4518742028100198, guid: 299d0ef5e9b42254dbed9a60f9933255, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1659,7 +1664,7 @@ Prefab:
     - target: {fileID: 82037140559206842, guid: 299d0ef5e9b42254dbed9a60f9933255,
         type: 2}
       propertyPath: MinDistance
-      value: 1
+      value: 1.08535
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 299d0ef5e9b42254dbed9a60f9933255, type: 2}
