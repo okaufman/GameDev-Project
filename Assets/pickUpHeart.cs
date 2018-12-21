@@ -13,9 +13,17 @@ public class pickUpHeart : MonoBehaviour {
 	}
 
     private void OnCollisionEnter(Collision collision) {
-        if (collision.gameObject.tag == "Player" || collision.gameObject.tag == "redPlayer" || collision.gameObject.tag == "bluePlayer") {
+        if (collision.gameObject.tag == "Player") {
             Destroy(gameObject);
-            UIHealth.health += 50;
+            Player.health += 50;
+        }
+        if (collision.gameObject.tag == "redPlayer") {
+            Destroy(gameObject);
+            PlayerRed.health += 50;
+        }
+        if (collision.gameObject.tag == "bluePlayer") {
+            Destroy(gameObject);
+            PlayerBlue.health += 50;
         }
     }
 }

@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class PlayerRed : MonoBehaviour
 {
    
-    public int health = 100;
+    public static int health = 100;
 
     private bool isDead = false;
     private float speedForce = 15f;

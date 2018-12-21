@@ -11,7 +11,7 @@ public class PlayerBlue : MonoBehaviour {
     private float maxSpeed = 20f;
     private float jumpForce = 600f;
     private bool grounded = true;
-    public int health = 100;
+    public static int health = 100;
 
     private Animator animator;
     private Rigidbody rb2d;
