@@ -61,17 +61,11 @@ public class Player : MonoBehaviour {
                 //assign new Rotation to object
                 transform.eulerAngles = currRot;
             }
-            if (Input.GetKey(KeyCode.LeftArrow)) {
+            if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow)) {
                 animate();
-                if (rb2d.velocity.x > -maxSpeed)
-                    rb2d.AddForce(transform.right * speedForce);
-            }
-            if (Input.GetKey(KeyCode.RightArrow)) {
-                animate();
-                if (rb2d.velocity.x < maxSpeed)
-                    //print(transform.forward);
-                    rb2d.AddForce(transform.right * speedForce);
-            }
+                float x = Input.GetAxis("Horizontal");
+                rb2d.velocity = new Vector2(x * speedForce, rb2d.velocity.y);
+            }    
         }
         UIHealth.health = health;
         if(isDead) {
