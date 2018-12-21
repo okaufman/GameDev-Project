@@ -103,6 +103,9 @@ public class Player : MonoBehaviour {
 
      public void OnAttack()
     {
-        FireWeapon();
+        if (this.isActiveAndEnabled)
+        {
+            FireWeapon();
+        }
     }
 }
