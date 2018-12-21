@@ -15,8 +15,10 @@ public class PlayerAttack : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
-        GetComponentInParent<Player>().FireWeapon += shoot;
+        if (GetComponentInParent<Player>())
+        {
+            GetComponentInParent<Player>().FireWeapon += shoot;
+        }
         
 	}
 	

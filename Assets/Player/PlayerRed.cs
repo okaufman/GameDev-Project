@@ -15,7 +15,7 @@ public class PlayerRed : MonoBehaviour
     private float jumpForce = 600f;
     private bool grounded = true;
 
-    public GruntBehaviour smallgrunt;
+  
     private Animator animator;
     private Rigidbody rb2d;
     private SpriteRenderer spriteRenderer;

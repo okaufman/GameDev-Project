@@ -9,6 +9,8 @@ public class TEnemyGun : MonoBehaviour
     public Transform firePointLeft;
     public Rigidbody smallBullet;
     public Transform Player;
+    public Transform PlayerRed;
+    public Transform PlayerBlue;
     public float nextFire = 0.0F;
     public float fireRate = 1;
     public int attackRange = 2;
@@ -29,24 +31,57 @@ public class TEnemyGun : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        decideToShoot( Player);
+        decideToShoot( PlayerRed);
+        decideToShoot( PlayerBlue);
 
-        if ((Vector3.Distance(firePointLeft.position, Player.position) < attackRange))
+
+
+    }
+
+
+    void decideToShoot(Transform Player)
+    {
+        if (PlayerIsClose( Player))
         {
             if (Time.time > nextFire)
             {
-                if (Vector3.Distance(Player.position, firePointRight.position) > Vector3.Distance(Player.position, firePointLeft.position))
+                if (shootRight(Player))
                 {
-
-                    Shoot(firePointLeft);
+                    Shoot(firePointRight);
                     nextFire = Time.time + fireRate;
                 }
                 else
                 {
-                    Shoot(firePointRight); 
+                    Shoot(firePointLeft);
                     nextFire = Time.time + fireRate;
                 }
             }
         }
+    }
+    bool shootRight(Transform Player)
+    {
+        bool yes = true;
+        if((Vector3.Distance(Player.position, firePointRight.position)) > Vector3.Distance(Player.position, firePointLeft.position)){
+            yes = false;
+        }
+        else{
+            yes = true;
+        }
+        return yes;
+    }
+
+    bool  PlayerIsClose(Transform Player)
+    {
+        bool yes;
+        if (Vector3.Distance(firePointLeft.position, Player.position) < attackRange)
+        {
+            yes= true;
+        }else
+        {
+            yes= false;
+        }
+        return yes;
 
     }
     void Shoot(Transform firePoint)
